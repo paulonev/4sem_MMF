@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"by.bsu.matrices.entities"},{"l":"by.bsu.matrices.exceptions"},{"l":"by.bsu.matrices.run"},{"l":"by.bsu.matrices.utils"}]

@@ -1,0 +1,12 @@
+package by.bsu.matrices.exceptions;
+
+/**This file contains exceptions used in this application
+ *
+ */
+public class MatrixException extends Exception {
+    public MatrixException() {}
+
+    public MatrixException(String message) {
+        super(message);
+    }
+}
