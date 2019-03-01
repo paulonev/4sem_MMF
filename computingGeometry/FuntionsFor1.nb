@@ -1,0 +1,164 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5164,        155]
+NotebookOptionsPosition[      4883,        141]
+NotebookOutlinePosition[      5226,        156]
+CellTagsIndexPosition[      5183,        153]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"PointLocation", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"p1_", ",", "p2_"}], "}"}], ",", "p3_"}], "]"}], ":=", " ", 
+   RowBox[{"Block", "[", 
+    RowBox[{
+     RowBox[{"{", "d", "}"}], ",", 
+     RowBox[{
+      RowBox[{"d", "=", " ", 
+       RowBox[{"Det", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"p2", "-", "p1"}], ",", 
+          RowBox[{"p3", "-", "p1"}]}], "}"}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"d", ">", "0"}], ",", 
+        RowBox[{"Return", " ", "[", "\"\<Left\>\"", "]"}], ",", 
+        "\[IndentingNewLine]", "\t\t\t\t\t\t\t\t\t", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{"d", "<", "0"}], ",", 
+          RowBox[{"Return", "[", "\"\<Right\>\"", "]"}], ",", 
+          RowBox[{"Return", "[", "\"\<Lie on the line\>\"", "]"}]}], "]"}]}], 
+       "]"}]}]}], "\[IndentingNewLine]", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.760098355466058*^9, 3.760098362119052*^9}, {
+  3.7600984734450593`*^9, 3.76009848738705*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"IsIntersecting", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"p1_", ",", "p2_"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"p3_", ",", "p4_"}], "}"}]}], "]"}], " ", ":=", " ", 
+   RowBox[{"Block", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"d1", ",", "d2", ",", "d3", ",", "d4"}], "}"}], ",", " ", 
+     RowBox[{
+      RowBox[{"d1", " ", "=", " ", 
+       RowBox[{"Det", "[", 
+        RowBox[{"{", " ", 
+         RowBox[{
+          RowBox[{"p4", "-", "p3"}], ",", 
+          RowBox[{"p1", "-", "p3"}]}], "}"}], "]"}]}], ";", " ", 
+      RowBox[{"d2", " ", "=", " ", 
+       RowBox[{"Det", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"p4", "-", "p3"}], ",", 
+          RowBox[{"p2", "-", "p3"}]}], "}"}], "]"}]}], ";", " ", 
+      RowBox[{"d3", " ", "=", " ", 
+       RowBox[{"Det", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"p2", "-", "p1"}], ",", 
+          RowBox[{"p3", "-", "p1"}]}], "}"}], "]"}]}], ";", " ", 
+      RowBox[{"d4", " ", "=", " ", 
+       RowBox[{"Det", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"p2", "-", "p1"}], ",", 
+          RowBox[{"p4", "-", "p1"}]}], "}"}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"s1", "=", 
+       RowBox[{"Dot", "[", 
+        RowBox[{
+         RowBox[{"p3", "-", "p1"}], ",", 
+         RowBox[{"p4", "-", "p1"}]}], "]"}]}], ";", 
+      RowBox[{"s2", "=", 
+       RowBox[{"Dot", "[", 
+        RowBox[{
+         RowBox[{"p3", "-", "p2"}], ",", 
+         RowBox[{"p4", "-", "p2"}]}], "]"}]}], ";", 
+      RowBox[{"s3", "=", 
+       RowBox[{"Dot", "[", 
+        RowBox[{
+         RowBox[{"p3", "-", "p1"}], ",", 
+         RowBox[{"p3", "-", "p2"}]}], "]"}]}], ";", 
+      RowBox[{"s4", "=", 
+       RowBox[{"Dot", "[", 
+        RowBox[{
+         RowBox[{"p4", "-", "p1"}], ",", 
+         RowBox[{"p4", "-", "p2"}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"d1", "==", "d2", "==", "d3", "==", "d4", "==", "0"}], " ", 
+        ",", "\[IndentingNewLine]", "\t", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"s1", " ", "\[LessEqual]", "0"}], " ", "||", " ", 
+           RowBox[{"s2", " ", "\[LessEqual]", "0"}], " ", "||", " ", 
+           RowBox[{"s3", "\[LessEqual]", "0"}], " ", "||", " ", 
+           RowBox[{"s4", " ", "\[LessEqual]", "0"}]}], ",", 
+          RowBox[{"Return", "[", "True", "]"}], ",", 
+          RowBox[{"Return", "[", "False", "]"}]}], "]"}], 
+        "\[IndentingNewLine]", "\t", ",", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"d1", "*", "d2"}], " ", "\[LessEqual]", " ", "0"}], 
+            ")"}], "&&", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"d3", "*", "d4"}], "\[LessEqual]", "0"}], ")"}]}], ",", 
+          RowBox[{"Return", "[", "True", "]"}], ",", 
+          RowBox[{"Return", "[", "False", "]"}]}], "]"}]}], 
+       "\[IndentingNewLine]", "]"}]}]}], "\[IndentingNewLine]", "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{3.7600969638397093`*^9, 3.7600984701490583`*^9}]
+},
+WindowSize->{627, 676},
+WindowMargins->{{Automatic, -7}, {Automatic, 0}},
+FrontEndVersion->"10.3 for Microsoft Windows (64-bit) (October 9, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1108, 30, 186, "Input"],
+Cell[1669, 52, 3210, 87, 528, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
