@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"by.bsu.matrices.entities","l":"Constants"},{"p":"by.bsu.matrices.utils","l":"Handlers"},{"p":"by.bsu.matrices.entities","l":"Matrix"},{"p":"by.bsu.matrices.exceptions","l":"MatrixException"},{"p":"by.bsu.matrices.utils","l":"MatrixFactory"},{"p":"by.bsu.matrices.run","l":"Program"}]
