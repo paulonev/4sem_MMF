@@ -23,7 +23,7 @@ public class Handlers {
      */
     public void changeMatrix(Matrix matrix) {
         //1)
-        int maximumValue = getMaxValue(matrix.getArray());
+        int maximumValue = getMaxValue(matrix.getArray()); //передавать объект, а не матрицу
         //2)
         ArrayList<Integer> rowIndexes = new ArrayList<>();
         ArrayList<Integer> colIndexes = new ArrayList<>();

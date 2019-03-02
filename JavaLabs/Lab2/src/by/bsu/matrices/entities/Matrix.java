@@ -16,6 +16,10 @@ public class Matrix {
         array = new int[n][n];
     }
 
+    public Matrix(int[][] array) {
+        this.array = array;
+    }
+
     public int getVerticalSize(){
         return array.length;
     }

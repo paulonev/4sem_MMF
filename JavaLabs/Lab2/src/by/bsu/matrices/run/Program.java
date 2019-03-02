@@ -1,7 +1,7 @@
 package by.bsu.matrices.run;
 
 import by.bsu.matrices.exceptions.MatrixException;
-import by.bsu.matrices.utils.ArrayFiller;
+import by.bsu.matrices.utils.MatrixFactory;
 import by.bsu.matrices.utils.Handlers;
 import by.bsu.matrices.entities.Matrix;
 
@@ -17,7 +17,7 @@ import java.util.*;
 public class Program {
     public static void main(String[] args)
     {
-        ArrayFiller af = new ArrayFiller();
+        MatrixFactory mf = new MatrixFactory();
         Scanner sc = new Scanner(System.in); //for input
         boolean isWrongInput = true;
         int dimension;
@@ -29,10 +29,9 @@ public class Program {
                 String output = sc.nextLine();
                 dimension = Integer.parseInt(output);
 
-                Matrix matrix = new Matrix(dimension);
-                //give us a randomly fulfilled matrix object's array
-                af.fillArray(matrix.getArray());
+                Matrix matrix = mf.matrixFactory(dimension);
 
+                //доделать
                 Handlers h = new Handlers();
                 h.changeMatrix(matrix);
 
