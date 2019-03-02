@@ -14,6 +14,8 @@ class NumberSelectorTest {
     @Test
     void selectNumbersFromList()
     {
+        int numberDimension = 2; // select numbers with this amount of digits
+        int amountDifDigits = 2;
         ArrayList<Integer> list = new ArrayList<>();
         list.add(3);
         list.add(15);
@@ -22,8 +24,13 @@ class NumberSelectorTest {
         list.add(244);
         NumberSelector ns = new NumberSelector(list);
         int[] expectedArray = {15,11};
-        ArrayList<Integer> resultList = ns.selector(2,2);
-        int[] resultArray = resultList.stream().toArray(int[]::new);
+        ArrayList<Integer> resultList = ns.selector(numberDimension,amountDifDigits);
+        //convert ArrayList<Integer> to int[]
+        //Java 8 has IntStream
+        //resultList.stream() returns Stream<Integer>
+        //Need to convert Stream<Integer> to tiny IntStream object
+        //mapToInt is used for that
+        int[] resultArray = resultList.stream().mapToInt(Integer::intValue).toArray();
         assertArrayEquals(expectedArray,resultArray);
     }
 
