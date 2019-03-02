@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"by.bsu.numbers.exceptions","l":"InvalidAmountOfDifferentDigitsException"},{"p":"by.bsu.numbers.run","l":"Main"},{"p":"by.bsu.numbers.util","l":"NumberSelector"}]

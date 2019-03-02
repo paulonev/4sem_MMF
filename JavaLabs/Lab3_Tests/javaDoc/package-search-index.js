@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"by.bsu.numbers.exceptions"},{"l":"by.bsu.numbers.run"},{"l":"by.bsu.numbers.util"}]
