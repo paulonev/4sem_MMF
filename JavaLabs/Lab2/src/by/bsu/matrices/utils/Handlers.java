@@ -16,7 +16,7 @@ public class Handlers {
      * Plan:
      * 1)define maximum value in matrix
      * 2)define rows and cols that have this maximum (stored in arraylists)
-     * 3)exclude repeating values from arraylists
+     * 3)exclude repeating values from arraylists and display in descending order
      * 4)delete these rows and cols from a matrix
      *
      * @param matrix Object which int[][] array should be changed
@@ -24,30 +24,22 @@ public class Handlers {
     public void changeMatrix(Matrix matrix) {
         //1)
         int maximumValue = getMaxValue(matrix.getArray()); //передавать объект, а не матрицу
+
         //2)
-        ArrayList<Integer> rowIndexes = new ArrayList<>();
-        ArrayList<Integer> colIndexes = new ArrayList<>();
-
+        TreeSet<Integer> rowIndexes = new TreeSet<>();
+        TreeSet<Integer> colIndexes = new TreeSet<>();
         defineRowsColsContainMax(maximumValue, matrix.getArray(), rowIndexes, colIndexes);
+
         //3)
-        HashSet<Integer> hs = new HashSet<>(rowIndexes);
-        rowIndexes.clear();
-        rowIndexes.addAll(hs); //list of unique elems
-
-        HashSet<Integer> hs1 = new HashSet<>(colIndexes);
-        colIndexes.clear();
-        colIndexes.addAll(hs1);
-
-        Collections.sort(rowIndexes, Collections.reverseOrder());
-        Collections.sort(colIndexes, Collections.reverseOrder());
+        NavigableSet<Integer> navRowIndexes = rowIndexes.descendingSet();
+        NavigableSet<Integer> navColIndexes = colIndexes.descendingSet();
 
         //4)
-
-        for (int item : rowIndexes) {
+        for (int item : navRowIndexes) {
             deleteRow(item, matrix.getArray());
         }
 
-        for (int item : colIndexes) {
+        for (int item : navColIndexes) {
             deleteCol(item, matrix.getArray());
         }
 
@@ -77,8 +69,8 @@ public class Handlers {
      * @param jIndexes      arrayList of col indexes where maximum(s) are stored
      */
     private void defineRowsColsContainMax(int currentMax, int[][] array,
-                                          ArrayList<Integer> iIndexes,
-                                          ArrayList<Integer> jIndexes) {
+                                          TreeSet<Integer> iIndexes,
+                                          TreeSet<Integer> jIndexes) {
         int arrSize = array.length;
         for (int i = 0; i < arrSize; i++) {
             for (int j = 0; j < arrSize; j++) {
