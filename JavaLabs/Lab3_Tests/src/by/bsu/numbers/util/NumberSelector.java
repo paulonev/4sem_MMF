@@ -3,7 +3,13 @@ package by.bsu.numbers.util;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-//Найти такие p-значные числа, в записи которых встречаются не более k различных цифр
+/** Найти такие p-значные числа, в записи которых встречаются не более k различных цифр
+ *
+ * @author Paul Okunev
+ * @since JDK 9.0.1
+ *
+ */
+
 public class NumberSelector {
     //here to write realization
     private ArrayList<Integer> list;
@@ -23,7 +29,7 @@ public class NumberSelector {
     }
 
 
-    /**This method selects numbers from a list that satisfy the requirements
+    /**This method selects numbers from a list that satisfy the requirements of the task
      *
      * @param   amountDigits      required amount of digits in number
      * @param   amountDifDigits   floor amount of different digits in number

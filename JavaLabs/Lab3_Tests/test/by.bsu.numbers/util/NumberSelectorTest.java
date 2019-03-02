@@ -15,7 +15,7 @@ class NumberSelectorTest {
     void selectNumbersFromList()
     {
         int numberDimension = 2; // select numbers with this amount of digits
-        int amountDifDigits = 2;
+        int amountDifDigits = 2; // that have no more than "amountDifDigits" different digits
         ArrayList<Integer> list = new ArrayList<>();
         list.add(3);
         list.add(15);
@@ -24,6 +24,7 @@ class NumberSelectorTest {
         list.add(244);
         NumberSelector ns = new NumberSelector(list);
         int[] expectedArray = {15,11};
+        int expectedAmount = 2;
         ArrayList<Integer> resultList = ns.selector(numberDimension,amountDifDigits);
         //convert ArrayList<Integer> to int[]
         //Java 8 has IntStream
@@ -32,6 +33,7 @@ class NumberSelectorTest {
         //mapToInt is used for that
         int[] resultArray = resultList.stream().mapToInt(Integer::intValue).toArray();
         assertArrayEquals(expectedArray,resultArray);
+        assertEquals(expectedAmount,resultList.size());
     }
 
 }
