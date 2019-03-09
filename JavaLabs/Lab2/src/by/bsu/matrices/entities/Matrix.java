@@ -1,22 +1,30 @@
 package by.bsu.matrices.entities;
 
 import by.bsu.matrices.exceptions.MatrixException;
+
+import java.util.Arrays;
+
 /**This class describes Matrix objects
- *
+ * with the only private field - double[][] array
  * @author  Paul Okunev
  * @see     by.bsu.matrices.exceptions.MatrixException
  */
 public class Matrix {
-    private int[][] array;
+    private double[][] array;
 
+    /**
+     *
+     * @param n the size of square array
+     * @throws MatrixException if dimension is less than 1
+     */
     public Matrix(int n) throws MatrixException
     {
         //check for negative value of dimension
         if(n<1) throw new MatrixException("Dimension of matrix cannot be negative");
-        array = new int[n][n];
+        array = new double[n][n];
     }
 
-    public Matrix(int[][] array) {
+    public Matrix(double[][] array) {
         this.array = array;
     }
 
@@ -28,11 +36,11 @@ public class Matrix {
         return array[0].length;
     }
 
-    public int[][] getArray() {
+    public double[][] getArray() {
         return array;
     }
 
-    public int getElement(int i, int j) throws MatrixException
+    public double getElement(int i, int j) throws MatrixException
     {
         if(checkRange(i,j)){
             return array[i][j];
@@ -48,24 +56,26 @@ public class Matrix {
         throw new MatrixException("Impossible to put value in unreachable storage");
     }
 
-    //check for exiting ranges of array
+    /**Check for exiting ranges of array
+     *
+     * @param i row number
+     * @param j column number
+     * @return TRUE if we exited edges of array , FALSE otherwise
+     */
     private boolean checkRange(int i, int j)
     {
         return i < 0 || i > array.length - 1 || j < 0 || j > array[0].length - 1;
     }
 
+    /** Overriden toString with no spaces
+     *
+     * @return string representation of Array
+     */
     @Override
-    public String toString()
-    {
-        StringBuilder str = new StringBuilder();
-        for (int[] row : array)
-        {
-            for (int item : row)
-            {
-                str.append(item + " ");
-            }
-            str.append("\n");
-        }
-        return str.toString();
+    public String toString() {
+        return "Matrix{" +
+                "array= " + Arrays.deepToString(array) +
+                '}';
     }
+
 }

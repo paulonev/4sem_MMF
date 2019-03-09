@@ -1,7 +1,7 @@
 package by.bsu.matrices.run;
 
 import by.bsu.matrices.exceptions.MatrixException;
-import by.bsu.matrices.utils.MatrixFactory;
+import by.bsu.matrices.matrixFactory.MatrixFactory;
 import by.bsu.matrices.utils.Handlers;
 import by.bsu.matrices.entities.Matrix;
 

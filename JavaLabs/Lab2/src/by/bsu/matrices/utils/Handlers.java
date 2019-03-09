@@ -23,7 +23,7 @@ public class Handlers {
      */
     public void changeMatrix(Matrix matrix) {
         //1)
-        int maximumValue = getMaxValue(matrix.getArray()); //передавать объект, а не матрицу
+        double maximumValue = getMaxValue(matrix.getArray()); //передавать объект, а не матрицу
 
         //2)
         TreeSet<Integer> rowIndexes = new TreeSet<>();
@@ -49,9 +49,9 @@ public class Handlers {
      * @param array object's 2D array which is checked for maximum
      * @return      maximum value that is stored in array
      */
-    private int getMaxValue(int[][] array) {
+    private double getMaxValue(double[][] array) {
         int n = array.length;
-        int max = array[0][0];
+        double max = array[0][0];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (max < array[i][j]) max = array[i][j];
@@ -68,7 +68,7 @@ public class Handlers {
      * @param iIndexes      arrayList of row indexes where maximum(s) are stored
      * @param jIndexes      arrayList of col indexes where maximum(s) are stored
      */
-    private void defineRowsColsContainMax(int currentMax, int[][] array,
+    private void defineRowsColsContainMax(double currentMax, double[][] array,
                                           TreeSet<Integer> iIndexes,
                                           TreeSet<Integer> jIndexes) {
         int arrSize = array.length;
@@ -82,13 +82,13 @@ public class Handlers {
         }
     }
 
-    private void deleteRow(int rowIndex, int[][] array) {
-        List<int[]> list = new ArrayList<>(Arrays.asList(array));
+    private void deleteRow(int rowIndex, double[][] array) {
+        List<double[]> list = new ArrayList<>(Arrays.asList(array));
         list.remove(rowIndex);
-        array = list.toArray(new int[array.length - 1][]);
+        array = list.toArray(new double[array.length - 1][]);
     }
 
-    private void deleteCol(int colIndex, int[][] array) {
+    private void deleteCol(int colIndex, double[][] array) {
         //транспонировать
         array = tranposeMatrix(array);
         //удалить строку
@@ -97,18 +97,18 @@ public class Handlers {
         array = tranposeMatrix(array);
     }
 
-    private int[][] tranposeMatrix(int[][] array)
+    private double[][] tranposeMatrix(double[][] array)
     {
         //rowMNT - число строк
         //colMNT - число столбцов
         int rowMNT = array.length;
         int colMNT = array[0].length;
 
-        int [][] newArr = new int[colMNT][];
+        double [][] newArr = new double[colMNT][];
 
         for (int i=0; i<colMNT; i++)
         {
-            newArr[i] = new int[rowMNT];
+            newArr[i] = new double[rowMNT];
         }
 
         for (int i=0; i<colMNT; i++)
