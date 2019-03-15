@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="520998aa-4283-4d15-8ba1-65bf07457120" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Matrices/by/bsu/matrices/entities/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Matrices/by/bsu/matrices/entities/Matrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Matrices/by/bsu/matrices/run/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Matrices/by/bsu/matrices/run/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Matrices/by/bsu/matrices/utils/Handlers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Matrices/by/bsu/matrices/utils/Handlers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Matrices/by/bsu/matrices/utils/MatrixFactory.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/bsu/matrices/entities/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/matrices/entities/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/bsu/matrices/run/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/matrices/run/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsu/matrices/utils/Handlers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/matrices/utils/Handlers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsu/matrices/utils/MatrixFactory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3_Tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3_Tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../computingGeometry/Lab1_Wolfram.nb" beforeDir="false" afterPath="$PROJECT_DIR$/../../computingGeometry/Lab1_Wolfram.nb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,28 +19,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsu/matrices/entities/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+            <state relative-caret-position="187">
+              <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/by/bsu/matrices/run/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="136">
+              <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsu/matrices/matrixFactory/MatrixFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="119">
+              <caret line="20" column="96" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsu/matrices/utils/Handlers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
+            <state relative-caret-position="1411">
               <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
             </state>
           </provider>
@@ -82,6 +67,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Singleton" />
       </list>
     </option>
   </component>
@@ -99,10 +85,10 @@
         <option value="$PROJECT_DIR$/src/by/bsu/matrices/utils/ArrayFiller.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/matrices/utils/MatrixFactory.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/matrices/exceptions/MatrixException.java" />
-        <option value="$PROJECT_DIR$/src/by/bsu/matrices/run/Program.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/matrices/utils/Handlers.java" />
-        <option value="$PROJECT_DIR$/src/by/bsu/matrices/matrixFactory/MatrixFactory.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/matrices/entities/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/matrices/run/Program.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/matrices/matrixFactory/MatrixFactory.java" />
       </list>
     </option>
   </component>
@@ -118,6 +104,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,15 +149,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552166706436" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552684231869" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab4_Logger" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -220,18 +206,19 @@
       <workItem from="1551372317918" duration="1383000" />
       <workItem from="1551511097389" duration="895000" />
       <workItem from="1551513121719" duration="1908000" />
-      <workItem from="1552164722115" duration="1789000" />
+      <workItem from="1552164722115" duration="2060000" />
+      <workItem from="1552388601668" duration="1303000" />
+      <workItem from="1552673644985" duration="9583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28928000" />
+    <option name="totallyTimeSpent" value="40085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19410875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20015106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -239,8 +226,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3282572" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3282572" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,48 +319,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/matrices/run/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/matrices/entities/singleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/matrices/utils/Handlers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1411">
+          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsu/matrices/entities/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+        <state relative-caret-position="187">
+          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsu/matrices/matrixFactory/MatrixFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="119">
+          <caret line="20" column="96" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/matrices/utils/Handlers.java">
+    <entry file="file://$PROJECT_DIR$/Java_Doc/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+        <state relative-caret-position="-357">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/matrices/run/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -15,41 +15,53 @@ import java.util.*;
  */
 
 public class Program {
-    public static void main(String[] args)
-    {
-        MatrixFactory mf = new MatrixFactory();
-        Scanner sc = new Scanner(System.in); //for input
-        boolean isWrongInput = true;
-        int dimension;
-
-        //to check for right input
-        while(isWrongInput) {
-            try {
-                System.out.print("Input dimension of your matrix: ");
-                String output = sc.nextLine();
-                dimension = Integer.parseInt(output);
-
-                Matrix matrix = mf.matrixFactory(dimension);
-
-                //доделать
-                Handlers h = new Handlers();
-                h.changeMatrix(matrix);
-
-                //output successfully changed matrix of Matrix object
-                System.out.println(matrix.toString());
-
-                isWrongInput = false;
+    /**This method is used to combine value inputs
+     * so that it could be easier to validate it
+     *
+     * @param s scanner stream
+     * @param textCase message displayed(ui)
+     * @return valid input(a number)
+     */
+    private static int validateInput(Scanner s, String textCase){
+        int numberToReturn;
+        while(true){
+            System.out.print(textCase);
+            if(s.hasNextInt()){
+                String output = s.nextLine();
+                numberToReturn = Integer.parseInt(output);
+                break;
             }
-            catch(MatrixException e)
-            {
-                System.out.println(e.getMessage());
-            }
-            catch(NumberFormatException e)
-            {
+            else{
                 System.out.println("Input a number, would you");
+                s.nextLine(); //!!!
             }
         }
-        System.out.println("Thanks for using my app. Goodbye!");
+        return numberToReturn;
+    }
+    public static void main(String[] args)
+    {
+        try {
+            MatrixFactory mf = new MatrixFactory();
+            Scanner sc = new Scanner(System.in); //for input
+            int dimension, min_range, max_range;
 
+            dimension = validateInput(sc, "Input dimension of matrix: ");
+            min_range = validateInput(sc, "Input min range of generating: ");
+            max_range = validateInput(sc, "Input max range of generating: ");
+
+
+            Matrix matrix = mf.matrixFactory(dimension, min_range, max_range);
+
+            Handlers h = new Handlers();
+            h.changeMatrix(matrix);
+
+            //output successfully changed matrix of Matrix object
+            System.out.println(matrix.toString());
+        }
+        catch (MatrixException e){
+            System.out.println(e.getMessage());
+        }
+
+        System.out.println("Thanks for using my app. Goodbye!");
     }
 }

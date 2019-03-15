@@ -2,6 +2,7 @@ package by.bsu.matrices.entities;
 
 import by.bsu.matrices.exceptions.MatrixException;
 
+import java.text.Format;
 import java.util.Arrays;
 
 /**This class describes Matrix objects
@@ -67,15 +68,20 @@ public class Matrix {
         return i < 0 || i > array.length - 1 || j < 0 || j > array[0].length - 1;
     }
 
-    /** Overriden toString with no spaces
-     *
+    /** Overriden toString with formatted
+     *  representation of elements of array
      * @return string representation of Array
      */
     @Override
     public String toString() {
-        return "Matrix{" +
-                "array= " + Arrays.deepToString(array) +
-                '}';
+        StringBuilder out = new StringBuilder();
+        for (double[] row : array) {
+            for (double elem : row) {
+                out.append(String.format("%6.1f", elem));
+            }
+            out.append("\n");
+        }
+        return out.toString();
     }
-
 }
+
