@@ -1,0 +1,68 @@
+2019-03-13 00:12:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Ограничение "CHECK_ALLSEATS" уже существует
+Constraint "CHECK_ALLSEATS" already exists; SQL statement:
+ALTER TABLE Trains ADD CONSTRAINT check_allSeats CHECK (seatsAll = seatsCoupe + seatsPl + seatsLux) [90045-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:110)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:102)
+	at org.h2.command.Command.executeUpdate(Command.java:261)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:233)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
+	at by.bsu.lab4.repository.BaseTableCreator.executeSqlStatement(BaseTableCreator.java:32)
+	at by.bsu.lab4.repository.Trains.createExtraConstraints(Trains.java:32)
+	at by.bsu.lab4.Program.main(Program.java:44)
+2019-03-13 00:19:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Ограничение "CHECK_ALLSEATS" уже существует
+Constraint "CHECK_ALLSEATS" already exists; SQL statement:
+ALTER TABLE Trains ADD CONSTRAINT check_allSeats CHECK (seatsAll = seatsCoupe + seatsPl + seatsLux) [90045-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:110)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:102)
+	at org.h2.command.Command.executeUpdate(Command.java:261)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:233)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
+	at by.bsu.lab4.repository.BaseTableCreator.executeSqlStatement(BaseTableCreator.java:36)
+	at by.bsu.lab4.repository.Trains.createExtraConstraints(Trains.java:32)
+	at by.bsu.lab4.Program.main(Program.java:18)
+2019-03-15 18:15:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Ограничение "CHECK_ALLSEATS" уже существует
+Constraint "CHECK_ALLSEATS" already exists; SQL statement:
+ALTER TABLE Trains ADD CONSTRAINT check_allSeats CHECK (seatsAll = seatsCoupe + seatsPl + seatsLux) [90045-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:110)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:102)
+	at org.h2.command.Command.executeUpdate(Command.java:261)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:233)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
+	at by.bsu.lab4.repository.BaseTableCreator.executeSqlStatement(BaseTableCreator.java:36)
+	at by.bsu.lab4.repository.Trains.createExtraConstraints(Trains.java:32)
+	at by.bsu.lab4.Program.main(Program.java:18)
+2019-03-15 19:23:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "ALTER TABLE TRAINS ADD CONSTRAINT IF EXIST[*] CHECK_ALLSEATS CHECK(SEATSALL = SEATSCOUPE + SEATSPL + SEATSLUX) "; ожидалось "NOT"
+Syntax error in SQL statement "ALTER TABLE TRAINS ADD CONSTRAINT IF EXIST[*] CHECK_ALLSEATS CHECK(SEATSALL = SEATSCOUPE + SEATSPL + SEATSLUX) "; expected "NOT"; SQL statement:
+ALTER TABLE Trains ADD CONSTRAINT IF EXIST check_allSeats CHECK(seatsAll = seatsCoupe + seatsPl + seatsLux) [42001-197]
+2019-03-15 20:26:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Ограничение "CHECK_ALLSEATS" уже существует
+Constraint "CHECK_ALLSEATS" already exists; SQL statement:
+ALTER TABLE Trains ADD CONSTRAINT check_allSeats CHECK(seatsAll = seatsCoupe + seatsPl + seatsLux) [90045-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:110)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:102)
+	at org.h2.command.Command.executeUpdate(Command.java:261)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:233)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
+	at by.bsu.lab4.repository.BaseTableCreator.executeSqlStatement(BaseTableCreator.java:36)
+	at by.bsu.lab4.repository.Trains.createExtraConstraints(Trains.java:32)
+	at by.bsu.lab4.Program.main(Program.java:18)
