@@ -1,0 +1,110 @@
+03-19-2019  10:58:38.680 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Exception:
+Wrong amount of seats(amount of each category of seats is >= 0 and total seats > 0)
+03-19-2019  11:02:06.764 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Exception:
+Wrong amount of seats(amount of each category of seats is >= 0 and total seats > 0)
+03-22-2019  10:56:47.597 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPoint"
+03-22-2019  10:56:47.937 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Exception:
+Wrong amount of seats(amount of each category of seats is >= 0 and total seats > 0)
+03-22-2019  10:58:34.595 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPoint"
+03-22-2019  10:58:34.731 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Exception:
+Invalid value for HourOfDay (valid values 0 - 23): 33
+03-22-2019  11:34:03.058 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPoint"
+03-22-2019  11:34:45.022 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPoint"
+03-22-2019  18:25:22.164 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPointAndDepTime"
+03-22-2019  18:25:22.256 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-22-2019  18:28:31.052 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPoint"
+03-22-2019  18:28:31.316 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-22-2019  18:30:08.799 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPoint"
+03-22-2019  18:30:08.943 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-22-2019  18:30:09.255 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Test failed. Exception:
+expected: <[Поезд №203948
+Общих мест: 8
+Мест купе: 1
+Мест плацкарт: 3
+Мест люкс: 7
+Место прибытия: Brest
+Время отправления: 9:15
+]> but was: <[Поезд №203948
+Общих мест: 8
+Мест купе: 1
+Мест плацкарт: 3
+Мест люкс: 7
+Место прибытия: Mogilev
+Время отправления: 9:15
+]>
+03-22-2019  18:32:04.307 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPoint"
+03-22-2019  18:32:04.383 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-22-2019  18:32:04.571 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Test failed.expected: <[Поезд №203948
+Общих мест: 8
+Мест купе: 1
+Мест плацкарт: 3
+Мест люкс: 7
+Место прибытия: Brest
+Время отправления: 9:15
+]> but was: <[Поезд №203948
+Общих мест: 8
+Мест купе: 1
+Мест плацкарт: 3
+Мест люкс: 7
+Место прибытия: Mogilev
+Время отправления: 9:15
+]>
+03-22-2019  18:33:53.950 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPoint"
+03-22-2019  18:33:54.046 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-22-2019  18:33:54.310 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Test failed.expected: <[Поезд №203948
+Общих мест: 8 Мест купе: 1 Мест плацкарт: 3 Мест люкс: 7 Место прибытия: Brest Время отправления: 9:15
+]> but was: <[Поезд №203948
+Общих мест: 8 Мест купе: 1 Мест плацкарт: 3 Мест люкс: 7 Место прибытия: Mogilev Время отправления: 9:15
+]>
+03-22-2019  18:35:12.788 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPointAndDepTime"
+03-22-2019  18:35:12.924 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-22-2019  18:35:12.932 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Test method finished properly
+03-22-2019  18:41:50.501 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPointAndCommonSeats"
+03-22-2019  18:41:50.596 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-22-2019  18:41:50.725 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Test failed
+expected: <[Поезд №192890
+Общих мест: 7 Мест купе: 1 Мест плацкарт: 1 Мест люкс: 0 Место прибытия: Brest Время отправления: 19:30
+]> but was: <[]>
+03-22-2019  18:43:21.147 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPointAndDepTime"
+03-22-2019  18:43:21.231 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-22-2019  18:43:21.259 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Test method finished properly
+03-22-2019  18:44:03.917 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPointAndCommonSeats"
+03-22-2019  18:44:03.993 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-22-2019  18:44:04.009 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Test method finished properly
+03-22-2019  23:44:00.538 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPointAndCommonSeats"
+03-22-2019  23:44:01.034 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-22-2019  23:44:01.053 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Test method finished properly
+03-23-2019  00:01:00.468 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "selectTrainsByMaxAmountOfTypesOfSeats"
+03-23-2019  00:01:00.883 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-23-2019  00:01:00.895 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Test method finished properly
+03-23-2019  00:01:35.889 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "selectTrainsByMaxAmountOfTypesOfSeats"
+03-23-2019  00:01:36.084 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-23-2019  00:01:36.096 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Test failed
+expected: <14> but was: <16>
+03-23-2019  00:39:25.386 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "countSeatsOfAnyType"
+03-23-2019  00:39:25.572 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Exception:
+Invalid value for HourOfDay (valid values 0 - 23): 24
+03-23-2019  00:43:50.593 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "selectEarliestTrain"
+03-23-2019  00:43:50.646 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-23-2019  00:43:50.655 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Test method finished properly
+03-23-2019  00:44:18.166 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "selectEarliestTrain"
+03-23-2019  00:44:18.217 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-23-2019  00:44:18.378 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Test failed
+expected: <[Поезд №203948
+Общих мест: 8 Мест купе: 1 Мест плацкарт: 3 Мест люкс: 7 Место прибытия: Kobrin Время отправления: 9:15
+]> but was: <[Поезд №203948
+Общих мест: 8 Мест купе: 1 Мест плацкарт: 3 Мест люкс: 7 Место прибытия: Mogilev Время отправления: 9:15
+]>
+03-23-2019  08:38:41.847 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPointAndCommonSeats"
+03-23-2019  08:38:42.047 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-23-2019  08:38:42.063 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Test method finished properly
+03-23-2019  08:40:00.840 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - Initialize test method "SelectTrainByDestPointAndCommonSeats"
+03-23-2019  08:40:00.940 [main] INFO  by.bsu.trains.handlers.trainSelectorTest - List of trains was successfully created.
+03-23-2019  08:40:01.108 [main] ERROR by.bsu.trains.handlers.trainSelectorTest - Test failed
+expected: <[Поезд №192890
+Общих мест: 7 Мест купе: 1 Мест плацкарт: 1 Мест люкс: 0 Место прибытия: Brest Время отправления: 19:30
+, Поезд №298437
+Общих мест: 10 Мест купе: 1 Мест плацкарт: 1 Мест люкс: 0 Место прибытия: Brest Время отправления: 19:20
+]> but was: <[Поезд №298437
+Общих мест: 10 Мест купе: 1 Мест плацкарт: 1 Мест люкс: 0 Место прибытия: Brest Время отправления: 19:20
+]>
