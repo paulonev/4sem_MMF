@@ -1,0 +1,26 @@
+03-31-2019  17:17:39.414 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  17:19:11.349 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Can't add car with such parameters to taxi park
+03-31-2019  17:22:49.663 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Mistake in the file. Car with such parameters doesn't match any category
+03-31-2019  17:48:04.511 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Mistake in the file. Car with such parameters doesn't match any category
+03-31-2019  17:50:55.253 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  17:52:58.756 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  17:55:12.025 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  17:57:47.002 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  18:00:16.649 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  21:31:44.960 [main] ERROR by.bsu.taxipark.tasks.CarPriceCalculatorTest - Not valid data. Check resources file
+For input string: " 2014"
+03-31-2019  21:32:25.929 [main] ERROR by.bsu.taxipark.tasks.CarPriceCalculatorTest - Not valid data. For input string: " 2014"
+Check resources file
+04-01-2019  07:02:31.655 [main] DEBUG by.bsu.taxipark.tasks.CarPriceCalculatorTest - Our sorted list[Auto{model='Volkswagen Polo', year=2010, fuelConsumption=5.5, price=9599.9, maxPassengers=4, maxSpeed=120, carClass=ECONOM, airConditioning=false, beverages=false}, Auto{model='Toyota Camry', year=2015, fuelConsumption=7.3, price=14999.9, maxPassengers=4, maxSpeed=160, carClass=COMFORT, airConditioning=true, beverages=false}, Auto{model='Mercedes-Benz E-klasse', year=2016, fuelConsumption=8.4, price=19000.0, maxPassengers=2, maxSpeed=180, carClass=BUSINESS, airConditioning=true, beverages=true}]
+04-26-2019  18:28:05.997 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+04-27-2019  22:59:15.059 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+04-27-2019  23:00:12.811 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+04-27-2019  23:01:44.367 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+04-27-2019  23:17:09.709 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Unable to parse string to number; For input string: " 2016"
+04-27-2019  23:25:37.097 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Unable to parse string to number; For input string: " 2016"
+04-27-2019  23:28:17.262 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Mistake in the file. Car with such parameters doesn't match any category
+04-27-2019  23:28:33.710 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Unable to parse string to number; For input string: " 2016"
+04-27-2019  23:37:19.918 [main] ERROR by.bsu.taxipark.tasks.CarPriceCalculatorTest - Not valid data. For input string: " 2016"
+Check resources file
+04-27-2019  23:37:38.788 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
+04-27-2019  23:37:39.904 [main] DEBUG by.bsu.taxipark.tasks.CarPriceCalculatorTest - Our sorted list[Auto{model='Volkswagen Polo', year=2010, fuelConsumption=5.5, price=9599.9, maxPassengers=4, maxSpeed=120, carClass=ECONOM, airConditioning=false, beverages=false}, Auto{model='Toyota Camry', year=2015, fuelConsumption=7.3, price=14999.9, maxPassengers=4, maxSpeed=160, carClass=COMFORT, airConditioning=true, beverages=false}, Auto{model='Mercedes-Benz E-klasse', year=2016, fuelConsumption=8.4, price=19000.0, maxPassengers=2, maxSpeed=180, carClass=BUSINESS, airConditioning=true, beverages=true}]

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"by.bsu.taxipark.action"},{"l":"by.bsu.taxipark.builder"},{"l":"by.bsu.taxipark.constants"},{"l":"by.bsu.taxipark.entity"},{"l":"by.bsu.taxipark.entity.fewPassengersCar"},{"l":"by.bsu.taxipark.entity.minivan"},{"l":"by.bsu.taxipark.exception"}]
