@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3b23f64-5370-4c33-9255-f87f04f59aa5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../InheritanceTask1/src/by/bsu/animals/entity/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/src/by/bsu/animals/entity/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3_Tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3_Tests/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4_Logger/.idea/libraries/h2_1_4_197.xml" beforeDir="false" />
@@ -41,6 +42,7 @@
       <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/strategy/ConcreteStrategyPlSeats.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/strategy/Context.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/strategy/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../computingGeometry/Lab2_Wolfram.nb" beforeDir="false" afterPath="$PROJECT_DIR$/../../computingGeometry/Lab2_Wolfram.nb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,21 +54,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/tasks/CarPriceCalculatorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/constants/TaxiParkConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="119">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/tasks/SpeedLimitsCarsSelectorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/TaxiPark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+            <state relative-caret-position="281">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1378#1379#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,17 +79,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="51">
+              <caret line="3" column="99" selection-start-line="3" selection-start-column="99" selection-end-line="3" selection-end-column="99" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/data2.txt">
+        <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/minivan/Minivan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="8" />
+            <state relative-caret-position="306">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/tasks/SpeedLimitsCarsSelectorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,62 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/tasks/FuelConsumptionSortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/FewPassengersCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/Auto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1268">
-              <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/builder/AutobuilderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="131" column="132" selection-start-line="131" selection-start-column="132" selection-end-line="131" selection-end-column="132" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/TaxiPark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/tasks/SpeedLimitsCarsSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="408">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,9 +124,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -189,35 +151,47 @@
         <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/passengerCar/PassengerCar.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/PassengerCar.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/taxipark/exception/WrongDataException.java" />
-        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/minivan/Minivan.java" />
-        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/constants/TaxiParkConstants.java" />
         <option value="$PROJECT_DIR$/src/log4j2.xml" />
-        <option value="$PROJECT_DIR$/data/data2.txt" />
         <option value="$PROJECT_DIR$/src/by/bsu/taxipark/action/CarConsumptionSorting.java" />
         <option value="$PROJECT_DIR$/test/by/bsu/taxipark/action/selectAutoBySpeedLimits.java" />
         <option value="$PROJECT_DIR$/test/by/bsu/taxipark/action/selectAutoBySpeedLimitsTest.java" />
         <option value="$PROJECT_DIR$/test/by/bsu/taxipark/action/CarConsumptionSortingTest.java" />
         <option value="$PROJECT_DIR$/test/by/bsu/taxipark/action/CarPriceCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/BusinessCar.java" />
-        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/ComfortCar.java" />
-        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/EconomCar.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/CarClassification.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/taxipark/action/CarPriceCalculator.java" />
-        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/FewPassengersCar.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/taxipark/read/taxiReader.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/Auto.java" />
-        <option value="$PROJECT_DIR$/test/by/bsu/taxipark/builder/AutobuilderTest.java" />
-        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/read/fileReader.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/taxipark/builder/IHashCreateable.java" />
-        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/builder/Autobuilder.java" />
         <option value="$PROJECT_DIR$/test/by/bsu/taxipark/operations/CarConsumptionSortingTest.java" />
         <option value="$PROJECT_DIR$/test/by/bsu/taxipark/operations/CarPriceCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/TaxiPark.java" />
         <option value="$PROJECT_DIR$/test/by/bsu/taxipark/operations/selectAutoBySpeedLimitsTest.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/taxipark/operations/SpeedLimitsSelector.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/taxipark/operations/SpeedLimitsCarsSelector.java" />
         <option value="$PROJECT_DIR$/test/by/bsu/taxipark/tasks/CarConsumptionSortingTest.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/util/FileTags.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/CarClassification.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/FewPassengersCar.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/tasks/CarPriceCalculator.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/tasks/CarConsumptionComparator.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/builder/Autobuilder.java" />
+        <option value="$PROJECT_DIR$/test/by/bsu/taxipark/builder/AutobuilderTest.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/BusinessCar.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/ComfortCar.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/EconomCar.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/minivan/Minivan.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/read/fileReader.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/parse/CarpoolParser.java" />
+        <option value="$PROJECT_DIR$/test/by/bsu/taxipark/tasks/CarPriceCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/data/data2.txt" />
+        <option value="$PROJECT_DIR$/test/by/bsu/taxipark/tasks/SpeedLimitsCarsSelectorTest.java" />
+        <option value="$PROJECT_DIR$/test/by/bsu/taxipark/builder/CarbuilderTest.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/Car.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/constants/TaxiParkConstants.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/builder/TaxiParkCreator.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/validator/CarValidator.java" />
         <option value="$PROJECT_DIR$/test/by/bsu/taxipark/tasks/FuelConsumptionSortingTest.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/builder/Carbuilder.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/taxipark/entity/TaxiPark.java" />
         <option value="$PROJECT_DIR$/data/data.txt" />
       </list>
     </option>
@@ -236,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,11 +225,6 @@
             <path>
               <item name="Taxipark" type="b2602c69:ProjectViewProjectNode" />
               <item name="InheritanceTask2" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Taxipark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InheritanceTask2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -264,6 +232,20 @@
               <item name="InheritanceTask2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="taxipark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxipark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InheritanceTask2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="taxipark" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxipark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InheritanceTask2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="taxipark" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Taxipark" type="b2602c69:ProjectViewProjectNode" />
@@ -283,6 +265,14 @@
             <path>
               <item name="Taxipark" type="b2602c69:ProjectViewProjectNode" />
               <item name="InheritanceTask2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="taxipark" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="minivan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxipark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InheritanceTask2" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,10 +281,25 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="taxipark" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Taxipark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InheritanceTask2" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="taxipark" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxipark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InheritanceTask2" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="taxipark" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -305,7 +310,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556397989457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556520801726" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/vBz2" />
@@ -318,8 +323,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="by.bsu.taxipark.action" />
       <recent name="by.bsu.taxipark.builder" />
+      <recent name="by.bsu.taxipark.action" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -340,39 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FuelConsumptionSortingTest.sortingTest">
-    <configuration name="AutobuilderTest.createAutoParkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Taxipark" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.bsu.taxipark.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by.bsu.taxipark.builder" />
-      <option name="MAIN_CLASS_NAME" value="by.bsu.taxipark.builder.AutobuilderTest" />
-      <option name="METHOD_NAME" value="createAutoParkTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutobuilderTest.createVanAutoPark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Taxipark" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.bsu.taxipark.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by.bsu.taxipark.builder" />
-      <option name="MAIN_CLASS_NAME" value="by.bsu.taxipark.builder.AutobuilderTest" />
-      <option name="METHOD_NAME" value="createVanAutoPark" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SpeedLimitsCarsSelectorTest.speedSelectionTest">
     <configuration name="CarPriceCalculatorTest.getSumOfTaxiParkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Taxipark" />
       <extension name="coverage">
@@ -384,6 +357,38 @@
       <option name="PACKAGE_NAME" value="by.bsu.taxipark.tasks" />
       <option name="MAIN_CLASS_NAME" value="by.bsu.taxipark.tasks.CarPriceCalculatorTest" />
       <option name="METHOD_NAME" value="getSumOfTaxiParkTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarbuilderTest.createEconomTaxiPark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taxipark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.bsu.taxipark.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.bsu.taxipark.builder" />
+      <option name="MAIN_CLASS_NAME" value="by.bsu.taxipark.builder.CarbuilderTest" />
+      <option name="METHOD_NAME" value="createEconomTaxiPark" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarbuilderTest.initTaxiParkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taxipark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.bsu.taxipark.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.bsu.taxipark.builder" />
+      <option name="MAIN_CLASS_NAME" value="by.bsu.taxipark.builder.CarbuilderTest" />
+      <option name="METHOD_NAME" value="initTaxiParkTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -440,11 +445,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FuelConsumptionSortingTest.sortingTest" />
-        <item itemvalue="JUnit.AutobuilderTest.createAutoParkTest" />
         <item itemvalue="JUnit.SpeedLimitsCarsSelectorTest.speedSelectionTest" />
         <item itemvalue="JUnit.CarPriceCalculatorTest.getSumOfTaxiParkTest" />
-        <item itemvalue="JUnit.AutobuilderTest.createVanAutoPark" />
+        <item itemvalue="JUnit.FuelConsumptionSortingTest.sortingTest" />
+        <item itemvalue="JUnit.CarbuilderTest.createEconomTaxiPark" />
+        <item itemvalue="JUnit.CarbuilderTest.initTaxiParkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -463,50 +468,53 @@
       <workItem from="1554393038358" duration="32000" />
       <workItem from="1554397728232" duration="4591000" />
       <workItem from="1556291930277" duration="18723000" />
-      <workItem from="1556433433999" duration="1221000" />
+      <workItem from="1556433433999" duration="25868000" />
+      <workItem from="1556535938395" duration="914000" />
+      <workItem from="1556536953078" duration="787000" />
+      <workItem from="1556544178983" duration="924000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AutobuilderTest_createAutoParkTest - 2019.04.27 at 22h 59m 16s.xml">
-      <configuration name="AutobuilderTest.createAutoParkTest" configurationId="JUnit" />
+    <history-entry file="CarbuilderTest_initTaxiParkTest - 2019.04.28 at 19h 22m 49s.xml">
+      <configuration name="CarbuilderTest.initTaxiParkTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutobuilderTest_createAutoParkTest - 2019.04.27 at 23h 00m 15s.xml">
-      <configuration name="AutobuilderTest.createAutoParkTest" configurationId="JUnit" />
+    <history-entry file="CarbuilderTest_createEconomTaxiPark - 2019.04.28 at 19h 37m 37s.xml">
+      <configuration name="CarbuilderTest.createEconomTaxiPark" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutobuilderTest_createAutoParkTest - 2019.04.27 at 23h 01m 45s.xml">
-      <configuration name="AutobuilderTest.createAutoParkTest" configurationId="JUnit" />
+    <history-entry file="FuelConsumptionSortingTest_sortingTest - 2019.04.29 at 07h 26m 26s.xml">
+      <configuration name="FuelConsumptionSortingTest.sortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutobuilderTest_createAutoParkTest - 2019.04.27 at 23h 04m 19s.xml">
-      <configuration name="AutobuilderTest.createAutoParkTest" configurationId="JUnit" />
+    <history-entry file="CarPriceCalculatorTest_getSumOfTaxiParkTest - 2019.04.29 at 07h 29m 34s.xml">
+      <configuration name="CarPriceCalculatorTest.getSumOfTaxiParkTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutobuilderTest_createAutoParkTest - 2019.04.27 at 23h 17m 10s.xml">
-      <configuration name="AutobuilderTest.createAutoParkTest" configurationId="JUnit" />
+    <history-entry file="CarPriceCalculatorTest_getSumOfTaxiParkTest - 2019.04.29 at 07h 29m 53s.xml">
+      <configuration name="CarPriceCalculatorTest.getSumOfTaxiParkTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutobuilderTest_createAutoParkTest - 2019.04.27 at 23h 25m 37s.xml">
-      <configuration name="AutobuilderTest.createAutoParkTest" configurationId="JUnit" />
+    <history-entry file="CarPriceCalculatorTest_getSumOfTaxiParkTest - 2019.04.29 at 07h 30m 11s.xml">
+      <configuration name="CarPriceCalculatorTest.getSumOfTaxiParkTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutobuilderTest_createAutoParkTest - 2019.04.27 at 23h 28m 17s.xml">
-      <configuration name="AutobuilderTest.createAutoParkTest" configurationId="JUnit" />
+    <history-entry file="SpeedLimitsCarsSelectorTest_speedSelectionTest - 2019.04.29 at 07h 32m 31s.xml">
+      <configuration name="SpeedLimitsCarsSelectorTest.speedSelectionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutobuilderTest_createAutoParkTest - 2019.04.27 at 23h 28m 34s.xml">
-      <configuration name="AutobuilderTest.createAutoParkTest" configurationId="JUnit" />
+    <history-entry file="SpeedLimitsCarsSelectorTest_speedSelectionTest - 2019.04.29 at 07h 33m 09s.xml">
+      <configuration name="SpeedLimitsCarsSelectorTest.speedSelectionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CarConsumptionSortingTest_sortingTest - 2019.04.27 at 23h 37m 20s.xml">
-      <configuration name="CarConsumptionSortingTest.sortingTest" configurationId="JUnit" />
+    <history-entry file="SpeedLimitsCarsSelectorTest_speedSelectionTest - 2019.04.29 at 07h 33m 42s.xml">
+      <configuration name="SpeedLimitsCarsSelectorTest.speedSelectionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CarConsumptionSortingTest_sortingTest - 2019.04.27 at 23h 37m 40s.xml">
-      <configuration name="CarConsumptionSortingTest.sortingTest" configurationId="JUnit" />
+    <history-entry file="SpeedLimitsCarsSelectorTest_speedSelectionTest - 2019.04.29 at 07h 34m 07s.xml">
+      <configuration name="SpeedLimitsCarsSelectorTest.speedSelectionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51410000" />
+    <option name="totallyTimeSpent" value="78682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -515,7 +523,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935154" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32935154" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36177474" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,7 +533,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32935154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -577,43 +585,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/action/CarConsumptionSorting.java" />
     <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/action/selectAutoBySpeedLimits.java" />
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/ComfortCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="88" selection-start-line="2" selection-start-column="88" selection-end-line="2" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/EconomCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/action/selectAutoBySpeedLimits.java" />
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/CarClassification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/BusinessCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -624,90 +600,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/minivan/Minivan.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/CarClassification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/builder/IHashCreateable.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/builder/IHashCreateable.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/FewPassengersCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/read/fileReader.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/BusinessCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/ComfortCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/EconomCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="-176">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/builder/Autobuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/read/fileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        <state relative-caret-position="187">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/constants/TaxiParkConstants.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/util/FileTags.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+        <state relative-caret-position="170">
+          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/builder/AutobuilderTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/tasks/CarPriceCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/builder/Autobuilder.java" />
+    <entry file="file://$PROJECT_DIR$/data/data2.txt" />
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/tasks/CarConsumptionComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/tasks/CarPriceCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/tasks/CarPriceCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/builder/AutobuilderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="131" column="132" selection-start-line="131" selection-start-column="132" selection-end-line="131" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/TaxiPark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="255">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -717,7 +695,75 @@
     <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/tasks/SpeedLimitsCarsSelector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/builder/CarbuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/constants/TaxiParkConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/parse/CarpoolParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="149" column="48" selection-start-line="149" selection-start-column="48" selection-end-line="149" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/builder/Carbuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/builder/TaxiParkCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/minivan/Minivan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/tasks/SpeedLimitsCarsSelectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -726,52 +772,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/tasks/FuelConsumptionSortingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+        <state relative-caret-position="408">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/fewPassengersCar/FewPassengersCar.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/validator/CarValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/Auto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1268">
-          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        <state relative-caret-position="1649">
+          <caret line="97" column="38" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data2.txt">
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/taxipark/entity/TaxiPark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsu/taxipark/tasks/SpeedLimitsCarsSelectorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        <state relative-caret-position="281">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="51">
+          <caret line="3" column="99" selection-start-line="3" selection-start-column="99" selection-end-line="3" selection-end-column="99" />
         </state>
       </provider>
     </entry>
