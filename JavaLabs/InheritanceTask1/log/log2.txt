@@ -1,0 +1,9 @@
+04-29-2019  15:00:41.438 [main] INFO  by.bsu.animals.run.Main - Puppy's characteristics: 
+Name: Pooh
+Age: 3.0
+
+04-29-2019  15:00:41.542 [main] INFO  by.bsu.animals.run.Main - What puppy has done in this session:
+Tiu tiu
+Puppy jumped
+Puppy ran
+Even young puppy can bite you. Don't tease

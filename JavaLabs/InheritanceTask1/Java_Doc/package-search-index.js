@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"by.bsu.animals.entity"},{"l":"by.bsu.animals.exception"},{"l":"by.bsu.animals.run"}]

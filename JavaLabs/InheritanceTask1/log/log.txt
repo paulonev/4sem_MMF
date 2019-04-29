@@ -1,0 +1,84 @@
+03-25-2019  19:52:53.440 [main] ERROR by.bsu.animals.run.Main - Exception: You've attempted to create dog-aged puppy
+03-25-2019  19:59:01.548 [main] INFO  by.bsu.animals.run.Main - Animals were successfully created
+
+03-25-2019  19:59:01.604 [main] INFO  by.bsu.animals.run.Main - Animal's bio: 
+Puppy: Pooh3
+03-25-2019  19:59:01.605 [main] INFO  by.bsu.animals.run.Main - What a puppy had done in this session:
+
+03-25-2019  19:59:01.606 [main] INFO  by.bsu.animals.run.Main - 
+Puppy has made voice
+03-25-2019  19:59:01.610 [main] INFO  by.bsu.animals.run.Main - 
+Puppy jumped
+03-25-2019  19:59:01.612 [main] INFO  by.bsu.animals.run.Main - 
+Puppy ran
+03-25-2019  19:59:01.613 [main] INFO  by.bsu.animals.run.Main - 
+Even puppy can bite you. Be careful
+03-25-2019  20:00:39.924 [main] INFO  by.bsu.animals.run.Main - Animals were successfully created
+
+03-25-2019  20:00:39.951 [main] INFO  by.bsu.animals.run.Main - Animal's bio: 
+Puppy: Pooh3
+03-25-2019  20:00:40.032 [main] INFO  by.bsu.animals.run.Main - What a puppy had done in this session:
+Puppy has made voice
+Puppy jumped
+Puppy ran
+Even puppy can bite you. Be careful
+03-25-2019  20:02:17.936 [main] INFO  by.bsu.animals.run.Main - Animals were successfully created
+03-25-2019  20:02:17.985 [main] INFO  by.bsu.animals.run.Main - Animal's bio: 
+Puppy:
+ Name: PoohAge: 3
+03-25-2019  20:02:18.051 [main] INFO  by.bsu.animals.run.Main - What a puppy had done in this session:
+Puppy has made voice
+Puppy jumped
+Puppy ran
+Even puppy can bite you. Be careful
+03-25-2019  20:04:12.409 [main] INFO  by.bsu.animals.run.Main - Animals were successfully created
+03-25-2019  20:04:12.461 [main] INFO  by.bsu.animals.run.Main - Animal's bio: 
+Puppy[
+Name: Pooh
+Age: 3
+]
+03-25-2019  20:04:12.564 [main] INFO  by.bsu.animals.run.Main - What puppy had done in this session:
+Puppy has made voice
+Puppy jumped
+Puppy ran
+Even puppy can bite you. Be careful
+03-25-2019  20:11:14.846 [main] ERROR by.bsu.animals.run.Main - 
+Exception: Wrong dog's age04-29-2019  14:47:06.317 [main] INFO  by.bsu.animals.run.Main - 
+Animals were successfully created04-29-2019  14:47:06.501 [main] INFO  by.bsu.animals.run.Main - 
+Animal's bio: 
+Puppy[
+Name: Pooh
+Age: 3.0
+]04-29-2019  14:47:06.669 [main] INFO  by.bsu.animals.run.Main - 
+What puppy has done in this session:
+Puppy has made voice
+Puppy jumped
+Puppy ran
+Even puppy can bite you. Be careful04-29-2019  14:55:57.097 [main] ERROR by.bsu.animals.run.Main - 
+Exception: Wrong puppy's age04-29-2019  14:57:58.558 [main] INFO  by.bsu.animals.run.Main - 
+Puppy's characteristics: 
+Name: Pooh
+Age: 3.004-29-2019  14:57:58.694 [main] INFO  by.bsu.animals.run.Main - 
+What puppy has done in this session:
+Gav gav
+Jump
+Run
+Even young puppy can bite you. Don't tease04-29-2019  15:00:01.888 [main] INFO  by.bsu.animals.run.Main - 
+Puppy's characteristics: 
+Name: Pooh
+Age: 3.004-29-2019  15:00:02.012 [main] INFO  by.bsu.animals.run.Main - 
+
+What puppy has done in this session:
+Tiu tiu
+Puppy jumped
+Puppy ran
+Even young puppy can bite you. Don't tease04-29-2019  15:00:41.438 [main] INFO  by.bsu.animals.run.Main - 
+Puppy's characteristics: 
+Name: Pooh
+Age: 3.0
+04-29-2019  15:00:41.542 [main] INFO  by.bsu.animals.run.Main - 
+What puppy has done in this session:
+Tiu tiu
+Puppy jumped
+Puppy ran
+Even young puppy can bite you. Don't tease

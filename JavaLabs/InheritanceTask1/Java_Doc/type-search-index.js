@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"by.bsu.animals.entity","l":"Animal"},{"p":"by.bsu.animals.exception","l":"AnimalAgeException"},{"p":"by.bsu.animals.entity","l":"Dog"},{"p":"by.bsu.animals.run","l":"Main"},{"p":"by.bsu.animals.entity","l":"Puppy"}]
