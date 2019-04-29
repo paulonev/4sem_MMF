@@ -2427,7 +2427,7 @@ ZipEntries.prototype = {
             Warning : the zip64 extension is supported, but ONLY if the 64bits integer read from
             the zip file can fit into a 32bits integer. This cannot be solved : Javascript represents
             all numbers as 64-bit double precision IEEE 754 floating point numbers.
-            So, we have 53bits for integers and bitwise tasks treat everything as 32bits.
+            So, we have 53bits for integers and bitwise operations treat everything as 32bits.
             see https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Bitwise_Operators
             and http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-262.pdf section 8.5
             */

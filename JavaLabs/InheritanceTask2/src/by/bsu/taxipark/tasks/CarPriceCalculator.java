@@ -1,6 +1,6 @@
 package by.bsu.taxipark.tasks;
 
-import by.bsu.taxipark.entity.Auto;
+import by.bsu.taxipark.entity.Car;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ public class CarPriceCalculator {
      * @param cars  list of cars
      * @return      total sum of taxi park
      */
-    public static double getSumOfTaxiPark(List<Auto> cars){
+    public static double getSumOfTaxiPark(List<Car> cars){
         double sum = 0.0;
-        for (Auto car : cars) sum += car.getPrice();
+        for (Car car : cars) sum += car.getPrice();
         return sum;
     }
 }

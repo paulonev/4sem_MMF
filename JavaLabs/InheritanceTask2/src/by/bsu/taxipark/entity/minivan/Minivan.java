@@ -1,21 +1,33 @@
 package by.bsu.taxipark.entity.minivan;
 
-import by.bsu.taxipark.entity.Auto;
-import by.bsu.taxipark.entity.fewPassengersCar.CarClassification;
+import by.bsu.taxipark.entity.Car;
 
-public class Minivan extends Auto {
+/*Minivan - car with ability to transport several passengers*/
+public class Minivan extends Car {
+    private int maxPassengers;
+
     public Minivan() {
-        this.model = "";
+        super();
     }
 
-    public Minivan(String model, int year, double fuelConsumption, double price, int maxSpeed){
-        this.model = model;
-        this.year = year;
-        this.fuelConsumption = fuelConsumption;
-        this.price = price;
-        this.maxSpeed = maxSpeed;
-        this.maxPassengers = 10;
-        this.carClass = CarClassification.VAN;
-        this.airConditioning = true;
+    public Minivan(String model, int year, double fuelConsumption, double price, int maxSpeed, int maxPassengers) {
+        super(model, year, fuelConsumption, price, maxSpeed);
+        this.maxPassengers = maxPassengers;
+    }
+
+    public int getMaxPassengers() {
+        return maxPassengers;
+    }
+
+    @Override
+    public String toString() {
+        return "Minivan{" +
+                "maxPassengers=" + maxPassengers +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", fuelConsumption=" + fuelConsumption +
+                ", price=" + price +
+                ", maxSpeed=" + maxSpeed +
+                '}';
     }
 }

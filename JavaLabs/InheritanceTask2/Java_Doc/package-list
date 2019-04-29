@@ -1,7 +1,11 @@
-by.bsu.taxipark.tasks
 by.bsu.taxipark.builder
 by.bsu.taxipark.constants
 by.bsu.taxipark.entity
 by.bsu.taxipark.entity.fewPassengersCar
 by.bsu.taxipark.entity.minivan
 by.bsu.taxipark.exception
+by.bsu.taxipark.parse
+by.bsu.taxipark.read
+by.bsu.taxipark.tasks
+by.bsu.taxipark.util
+by.bsu.taxipark.validator

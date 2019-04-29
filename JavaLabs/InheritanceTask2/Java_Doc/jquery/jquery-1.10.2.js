@@ -856,7 +856,7 @@ jQuery.extend({
 			}
 
 			if ( bulk ) {
-				// Bulk tasks run against the entire set
+				// Bulk operations run against the entire set
 				if ( raw ) {
 					fn.call( elems, value );
 					fn = null;
@@ -2847,7 +2847,7 @@ function select( selector, context, results, seed ) {
 		match = tokenize( selector );
 
 	if ( !seed ) {
-		// Try to minimize tasks if there is only one group
+		// Try to minimize operations if there is only one group
 		if ( match.length === 1 ) {
 
 			// Take a shortcut and set the context if the root selector is an ID
@@ -3179,7 +3179,7 @@ jQuery.extend({
 
 	Deferred: function( func ) {
 		var tuples = [
-				// tasks, add listener, listener list, final state
+				// action, add listener, listener list, final state
 				[ "resolve", "done", jQuery.Callbacks("once memory"), "resolved" ],
 				[ "reject", "fail", jQuery.Callbacks("once memory"), "rejected" ],
 				[ "notify", "progress", jQuery.Callbacks("memory") ]
@@ -5015,7 +5015,7 @@ jQuery.event = {
 		}
 		event.type = type;
 
-		// If nobody prevented the default tasks, do it now
+		// If nobody prevented the default action, do it now
 		if ( !onlyHandlers && !event.isDefaultPrevented() ) {
 
 			if ( (!special._default || special._default.apply( eventPath.pop(), data ) === false) &&

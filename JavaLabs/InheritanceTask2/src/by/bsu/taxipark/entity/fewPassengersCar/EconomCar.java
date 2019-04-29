@@ -1,18 +1,32 @@
 package by.bsu.taxipark.entity.fewPassengersCar;
 
-/**It's a fewPassengersCar without airConditioning, without beverages and maxPassengers = 4 */
+/**It's a fewPassengersCar with airConditioning*/
 public class EconomCar extends FewPassengersCar{
-    public EconomCar() {
-        this.model = "";
+    private boolean airConditioning;//кондиционер
+
+    public EconomCar(){
+        super();
+        this.airConditioning = true;
     }
 
-    public EconomCar(String model, int year, double fuelConsumption, double price, int maxSpeed){
-        this.model = model;
-        this.year = year;
-        this.fuelConsumption = fuelConsumption;
-        this.price = price;
-        this.maxSpeed = maxSpeed;
-        this.maxPassengers = 4;
-        this.carClass = CarClassification.ECONOM;
+    public EconomCar(String model, int year, double fuelConsumption, double price, int maxSpeed, int luggage_weight, boolean airConditioning) {
+        super(model, year, fuelConsumption, price, maxSpeed, luggage_weight);
+        this.airConditioning = airConditioning;
+    }
+
+    public boolean isAirConditioning() {
+        return airConditioning;
+    }
+
+    @Override
+    public String toString() {
+        return "EconomCar{" +
+                "airConditioning=" + airConditioning +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", fuelConsumption=" + fuelConsumption +
+                ", price=" + price +
+                ", maxSpeed=" + maxSpeed +
+                '}';
     }
 }

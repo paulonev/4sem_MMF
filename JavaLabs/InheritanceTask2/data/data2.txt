@@ -1,9 +1,0 @@
-model,year,consumption,price,maxPassengers,maxSpeed,airConditioning,beverages
-Volkswagen Polo,2012,5.5,9500.0,4,120,false,false
-Skoda Rapid,2013,6.2,10100.0,4,120,false,false
-Toyota Camry,2015,7.6,16000.0,4,160,true,false
-Skoda Superb,2016,7.2,14400.0,4,140,true,false
-Mercedes-Benz E-klasse,2016,8.4,19000.0,2,180,true,true
-Audi A6,2016,7.5,18000.0,2,180,true,true
-Volkswagen Caddy,2014,10.2,25000.0,12,120,true,false
-Ford Galaxy,2014,11.1,22000.0,14,110,true,false
