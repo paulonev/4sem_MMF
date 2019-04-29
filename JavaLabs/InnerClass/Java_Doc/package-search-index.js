@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"by.bsu.phonesUtilizer.constants"},{"l":"by.bsu.phonesUtilizer.entity"},{"l":"by.bsu.phonesUtilizer.exceptions"},{"l":"by.bsu.phonesUtilizer.fileReader"},{"l":"by.bsu.phonesUtilizer.validator"}]

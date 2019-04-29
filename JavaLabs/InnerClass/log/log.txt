@@ -1,0 +1,53 @@
+04-05-2019  09:00:49.698 [main] ERROR by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - Couldn't able to find your producer in our producersList
+04-05-2019  09:02:03.048 [main] ERROR by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - Couldn't able to find your producer in our producersList
+No enum constant by.bsu.phonesUtilizer.entity.PhoneProducers.samsung
+04-05-2019  09:03:04.789 [main] DEBUG by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - What we read from file: 
+[Phone{producer=SAMSUNG, price=399.9, yearRelease=2014, phoneHardware=PhoneHardware{ROMcapacity=32,
+RAMcapacity=2,
+BATTERYcapacity=2000,
+CAMresolution=7.0
+}}, Phone{producer=APPLE, price=799.9, yearRelease=2015, phoneHardware=PhoneHardware{ROMcapacity=16,
+RAMcapacity=2,
+BATTERYcapacity=1500,
+CAMresolution=12.0
+}}]
+04-05-2019  09:05:02.256 [main] DEBUG by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - What we read from file: 
+[Phone{producer=SAMSUNG, price=399.9, yearRelease=2014, phoneHardware=PhoneHardware{
+ROMcapacity=32,
+RAMcapacity=2,
+BATTERYcapacity=2000,
+CAMresolution=7.0
+}}, Phone{producer=APPLE, price=799.9, yearRelease=2015, phoneHardware=PhoneHardware{
+ROMcapacity=16,
+RAMcapacity=2,
+BATTERYcapacity=1500,
+CAMresolution=12.0
+}}]
+04-05-2019  09:06:31.208 [main] ERROR by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - Wrong info about phones. Check and redo resource file
+File contains invalid hardware parameters
+04-05-2019  09:07:25.649 [main] ERROR by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - Couldn't able to find your producer in our producersList
+For input string: "sdlkfj"
+04-05-2019  09:10:36.317 [main] ERROR by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - For input string: "sdlkfj"
+04-29-2019  15:11:09.333 [main] DEBUG by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - What we read from file: 
+[PHONE{producer=SAMSUNG, price=399.9, yearRelease=2014, phoneHardware=PHONE_HARDWARE{
+ROMcapacity=32,
+RAMcapacity=2,
+BATTERYcapacity=2000,
+CAMresolution=7.0
+}}, PHONE{producer=APPLE, price=799.9, yearRelease=2012, phoneHardware=PHONE_HARDWARE{
+ROMcapacity=32,
+RAMcapacity=2,
+BATTERYcapacity=1500,
+CAMresolution=12.0
+}}]
+04-29-2019  15:14:06.960 [main] ERROR by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - Wrong type of data in file
+For input string: "lk399.9"
+04-29-2019  15:15:00.128 [main] ERROR by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - Wrong type of data in file
+For input string: "lk399.9"
+04-29-2019  15:16:15.113 [main] ERROR by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - Problems with BufferedReader: E:\4sem_MMF\JavaLabs\InnerClass\data\phones.tx (Не удается найти указанный файл)
+04-29-2019  15:18:13.288 [main] ERROR by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - Couldn't able to find your producer in our producersList
+No enum constant by.bsu.phonesUtilizer.entity.PhoneProducers.SAMSUNGOUIY
+04-29-2019  15:19:34.951 [main] ERROR by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - Wrong info about phones. Check and redo resource file
+File contains invalid hardware parameters
+04-29-2019  15:20:46.568 [main] ERROR by.bsu.phonesUtilizer.fileReader.PhoneReaderTest - Wrong info about phones. Check and redo resource file
+by.bsu.phonesUtilizer.exceptions.InvalidHardwareParametersException: File contains invalid hardware parameters
