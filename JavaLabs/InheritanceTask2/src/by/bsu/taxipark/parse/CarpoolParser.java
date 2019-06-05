@@ -24,18 +24,17 @@ public class CarpoolParser {
      * @throws WrongDataException if file's string doesn't represent a car or invalid CL parameter in file
      */
     public CarClassification takeCarClass() throws WrongDataException {
-        if(CarValidator.isStringACar(this.text)) {
+        if (CarValidator.isStringACar(this.text)) {
             int index = text.indexOf(FileTags.CL) + FileTags.CL.length();//индекс начала данных
             Scanner scanner = new Scanner(text.substring(index));//ставим scanner в индекс и начинаем считывать
             scanner.useDelimiter(p);//разбивает строку на эл-ты находящиеся между " " и =
             String carClassStr = scanner.next();//считает первый эл-т
-            if(CarValidator.isValidCarClass(carClassStr)) {
+            if (CarValidator.isValidCarClass(carClassStr)) {
                 return CarClassification.valueOf(carClassStr);
             } else throw new WrongDataException("Not valid car classification");
 
-        } else {
-            throw new WrongDataException("Not valid car parameters");
-        }
+        } else throw new WrongDataException("Not valid car parameters");
+
     }
 
     /**This method takes car model parameter from file and creates String value from it

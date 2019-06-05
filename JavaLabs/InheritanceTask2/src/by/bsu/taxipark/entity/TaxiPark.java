@@ -24,13 +24,14 @@ public class TaxiPark {
      * @param filePath               file destination
      * @throws FileNotFoundException when file doesn't exist or wasn't found
      * @throws WrongDataException    when there is a mistake in data file
+     * @throws OutOfMemoryError      if couldn't allocate memory for object
      *
      */
-    public void setCarPool(String filePath) throws WrongDataException, FileNotFoundException {
+    public void setCarPool(String filePath) throws WrongDataException, FileNotFoundException, OutOfMemoryError {
         this.carPool = new TaxiParkCreator().initializeTaxiPark(filePath);
     }
 
-    public void setEconomCarPool(String filePath) throws WrongDataException, FileNotFoundException{
+    public void setEconomCarPool(String filePath) throws WrongDataException, FileNotFoundException, OutOfMemoryError{
         this.carPool = new TaxiParkCreator().initializeEconomTaxiPark(filePath);
     }
 

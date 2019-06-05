@@ -21,7 +21,7 @@ public class TaxiParkCreator {
      * @throws WrongDataException    is thrown when there is a mistake in data file
      * @throws FileNotFoundException is thrown when unable to find and read from file
      */
-    public List<Car> initializeTaxiPark(String filePath) throws WrongDataException, FileNotFoundException {
+    public List<Car> initializeTaxiPark(String filePath) throws WrongDataException, FileNotFoundException, OutOfMemoryError {
         Carbuilder builder = new Carbuilder();
         List<Car> carPool = new ArrayList<>();
         ArrayList<String> stringsFromFile = fileReader.readFile(filePath);
@@ -63,7 +63,7 @@ public class TaxiParkCreator {
      * @throws WrongDataException    is thrown when there is a mistake in data file
      * @throws FileNotFoundException is thrown when unable to find and read from file
      */
-    public List<Car> initializeEconomTaxiPark(String filePath) throws WrongDataException, FileNotFoundException {
+    public List<Car> initializeEconomTaxiPark(String filePath) throws WrongDataException, FileNotFoundException, OutOfMemoryError {
         Carbuilder builder = new Carbuilder();
         List<Car> carPool = new ArrayList<>();
         ArrayList<String> stringsFromFile = fileReader.readFile(filePath);

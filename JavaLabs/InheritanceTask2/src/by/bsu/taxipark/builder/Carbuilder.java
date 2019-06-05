@@ -23,22 +23,22 @@ public class Carbuilder {
         this.parser = parser;
     }
 
-    public Minivan createMinivan() throws WrongDataException{
+    public Minivan createMinivan() throws WrongDataException, OutOfMemoryError{
         return new Minivan(parser.takeCarModel(),parser.takeCarYear(),parser.takeCarConsumption(),
                 parser.takeCarPrice(),parser.takeCarSpeed(),parser.takeCarMaxPassengers());
     }
 
-    public EconomCar createEconomCar() throws WrongDataException {
+    public EconomCar createEconomCar() throws WrongDataException,OutOfMemoryError {
         return new EconomCar(parser.takeCarModel(),parser.takeCarYear(),parser.takeCarConsumption(),
                 parser.takeCarPrice(),parser.takeCarSpeed(),parser.takeCarLuggageWeight(),parser.takeCarConditioning());
     }
 
-    public ComfortCar createComfortCar() throws WrongDataException{
+    public ComfortCar createComfortCar() throws WrongDataException,OutOfMemoryError{
         return new ComfortCar(parser.takeCarModel(),parser.takeCarYear(),parser.takeCarConsumption(),parser.takeCarPrice(),
                 parser.takeCarSpeed(),parser.takeCarLuggageWeight(),parser.takeCarConditioning(),parser.takeCarBeverages());
     }
 
-    public BusinessCar createBusinessCar() throws WrongDataException{
+    public BusinessCar createBusinessCar() throws WrongDataException ,OutOfMemoryError{
         return new BusinessCar(parser.takeCarModel(),parser.takeCarYear(),parser.takeCarConsumption(),parser.takeCarPrice(),
                 parser.takeCarSpeed(),parser.takeCarLuggageWeight(),parser.takeCarConditioning(),parser.takeCarBeverages(),parser.takeCarBatteryCharger());
     }

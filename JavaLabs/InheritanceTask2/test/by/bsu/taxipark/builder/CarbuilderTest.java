@@ -45,6 +45,8 @@ class CarbuilderTest {
             logger.log(Level.ERROR,e);
         } catch (FileNotFoundException e){
             logger.log(Level.ERROR,e.getMessage());
+        } catch (OutOfMemoryError er){
+            logger.log(Level.FATAL, "Couldn't allocate memory for object");
         }
     }
 
@@ -56,7 +58,7 @@ class CarbuilderTest {
     void createEconomTaxiPark(){
         try{
             TaxiPark park = new TaxiPark();
-            park.setEconomCarPool(filePath1);
+            park.setEconomCarPool(filePath1); //may generate outofmemoryerror
             logger.log(Level.INFO, "Taxi park was successfully created");
             List<Car> expected = new ArrayList<>();
             expected.add(new EconomCar("VOLKSWAGEN_POLO",2010,5.5,9599.9,120,30,true));
@@ -67,6 +69,8 @@ class CarbuilderTest {
             logger.log(Level.ERROR,e);
         } catch (FileNotFoundException e){
             logger.log(Level.ERROR,e.getMessage());
+        } catch (OutOfMemoryError er){
+            logger.log(Level.FATAL, "Couldn't allocate memory for object");
         }
     }
 }
