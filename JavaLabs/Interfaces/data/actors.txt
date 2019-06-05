@@ -1,0 +1,12 @@
+name=Fedor surname=Dobronravov genre=comedy
+name=Sergey surname=Bezrukov genre=drama
+name=Eugene surname=Kulik genre=comedy
+name=Pavel surname=Volya genre=comedy
+name=Kristina surname=Asmus genre=comedy
+name=Garik surname=Kharlamov genre=comedy
+name=Mikhail surname=Galustyan genre=comedy
+name=Danila surname=Kozlovsky genre=drama
+name=Yuriy surname=Nikulin genre=comedy
+name=Alisa surname=Friendlich genre=comedy
+name=Sergey surname=Petrov genre=drama
+name=Sergey surname=Svetlakov genre=comedy

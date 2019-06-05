@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83329922-5dc3-462e-8f2a-6c2c5a47b0b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/Animal.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/Animal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/Dog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/Dog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/Puppy.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/Puppy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/entity/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/exception/AnimalAgeException.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/exception/AnimalAgeException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/exception/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/exception/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/exception/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/exception/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/exception/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/exception/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/run/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/run/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/run/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/run/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/run/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/run/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/run/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/by/bsu/animals/run/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Java_Doc/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/PartAVar10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/PartAVar10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/Task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/log/2019-03/log-03-25-2019-1.txt.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/log/2019-03/log-03-25-2019-1.txt.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/log/2019-03/log-03-25-2019-2.txt.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/log/2019-03/log-03-25-2019-2.txt.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/log/2019-03/log-03-25-2019-3.txt.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/log/2019-03/log-03-25-2019-3.txt.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/log/2019-03/log-03-25-2019-4.txt.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/log/2019-03/log-03-25-2019-4.txt.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/log/2019-03/log-03-25-2019-5.txt.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/log/2019-03/log-03-25-2019-5.txt.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/log/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/log/log2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/log/log2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/out/production/PartAVar10/by/bsu/animals/entity/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/out/production/PartAVar10/by/bsu/animals/entity/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/out/production/PartAVar10/by/bsu/animals/entity/Puppy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/out/production/PartAVar10/by/bsu/animals/entity/Puppy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/out/production/PartAVar10/by/bsu/animals/run/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/out/production/PartAVar10/by/bsu/animals/run/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/src/by/bsu/animals/entity/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/src/by/bsu/animals/entity/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/src/by/bsu/animals/entity/Puppy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/src/by/bsu/animals/entity/Puppy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask1/src/by/bsu/animals/run/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask1/src/by/bsu/animals/run/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/data/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/data/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/log/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/builder/Carbuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/builder/Carbuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/builder/TaxiParkCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/builder/TaxiParkCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/constants/TaxiParkConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/constants/TaxiParkConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/entity/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/entity/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/entity/TaxiPark.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/entity/TaxiPark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/parse/CarpoolParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/parse/CarpoolParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/validator/CarValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/out/production/Taxipark/by/bsu/taxipark/validator/CarValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/out/test/Taxipark/by/bsu/taxipark/builder/CarbuilderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/out/test/Taxipark/by/bsu/taxipark/builder/CarbuilderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/out/test/Taxipark/by/bsu/taxipark/tasks/SpeedLimitsCarsSelectorTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/out/test/Taxipark/by/bsu/taxipark/tasks/SpeedLimitsCarsSelectorTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/out/test/Taxipark/by/bsu/taxipark/tasks/SpeedLimitsCarsSelectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/out/test/Taxipark/by/bsu/taxipark/tasks/SpeedLimitsCarsSelectorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/src/by/bsu/taxipark/builder/Carbuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/src/by/bsu/taxipark/builder/Carbuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/src/by/bsu/taxipark/builder/TaxiParkCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/src/by/bsu/taxipark/builder/TaxiParkCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/src/by/bsu/taxipark/entity/TaxiPark.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/src/by/bsu/taxipark/entity/TaxiPark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/src/by/bsu/taxipark/parse/CarpoolParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/src/by/bsu/taxipark/parse/CarpoolParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceTask2/test/by/bsu/taxipark/builder/CarbuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceTask2/test/by/bsu/taxipark/builder/CarbuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_Tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3_Tests/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/.idea/libraries/h2_1_4_197.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/.idea/libraries/log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4_Logger/.idea/libraries/log4j_api_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4_Logger/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4_Logger/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4_Logger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/Lab4_Logger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4_Logger/Lab4_Logger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/db/trains.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/db/trains.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/lib/h2-1.4.197.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/log/logs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/out/production/Lab4_Logger/by/bsu/lab4/ConnectToDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/out/production/Lab4_Logger/by/bsu/lab4/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/out/production/Lab4_Logger/by/bsu/lab4/model/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/out/production/Lab4_Logger/by/bsu/lab4/repository/BaseTableCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/out/production/Lab4_Logger/by/bsu/lab4/repository/TableOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/out/production/Lab4_Logger/by/bsu/lab4/repository/Trains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/out/production/Lab4_Logger/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4_Logger/out/production/Lab4_Logger/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/src/by/bsu/lab4/ConnectToDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/src/by/bsu/lab4/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/src/by/bsu/lab4/factory/TrainFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/src/by/bsu/lab4/model/Train.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/src/by/bsu/lab4/repository/BaseTableCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/src/by/bsu/lab4/repository/TableOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/src/by/bsu/lab4/repository/Trains.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_Logger/src/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4_Logger/src/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/Factory/TrainsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/entity/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/exceptions/NotValidAmountOfSeatsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/handlers/trainSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/strategy/ConcreteStrategyCommonSeats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/strategy/ConcreteStrategyCoupeSeats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/strategy/ConcreteStrategyLuxSeats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/strategy/ConcreteStrategyPlSeats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/strategy/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_logger/out/production/Lab4_logger/by/bsu/trains/strategy/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SQLcourse/Task1_Okunev_Pavel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../SQLcourse/Task1_Okunev_Pavel.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../computingGeometry/Lab2_Wolfram.nb" beforeDir="false" afterPath="$PROJECT_DIR$/../../computingGeometry/Lab2_Wolfram.nb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../computingGeometry/Lab3_Wolfram.nb" beforeDir="false" afterPath="$PROJECT_DIR$/../../computingGeometry/Lab3_Wolfram.nb" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/text.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="106" selection-start-column="106" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/handler/fileWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/stringReverser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/fileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/log4j2.xml" />
+        <option value="$PROJECT_DIR$/data/textNew.txt" />
+        <option value="$PROJECT_DIR$/data/text.txt" />
+        <option value="$PROJECT_DIR$/src/handler/fileReader.java" />
+        <option value="$PROJECT_DIR$/src/handler/stringReverser.java" />
+        <option value="$PROJECT_DIR$/src/handler/fileWriter.java" />
+        <option value="$PROJECT_DIR$/src/MainRunner.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FileReader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Streams2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FileReader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Streams2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FileReader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Streams2" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FileReader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Streams2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FileReader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Streams2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559646481708" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Streams1/lib/log4j-core-2.11.2.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainRunner" />
+      <module name="FileReader" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83329922-5dc3-462e-8f2a-6c2c5a47b0b1" name="Default Changelist" comment="" />
+      <created>1559590740837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559590740837</updated>
+      <workItem from="1559590767754" duration="7871000" />
+      <workItem from="1559599842530" duration="5773000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13644000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32935154" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1088" column="16" selection-start-line="1088" selection-start-column="16" selection-end-line="1088" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/stringReverser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/fileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="106" selection-start-column="106" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/textNew.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/fileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FileReader</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>log4j-api-2.11.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22971286" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

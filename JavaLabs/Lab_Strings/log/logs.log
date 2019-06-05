@@ -1,0 +1,12 @@
+19:40:13.233 [main] FATAL TextReader - Can't the input file for read!
+19:41:04.419 [main] FATAL TextReader - Can't the input file for read!
+19:41:45.758 [main] FATAL TextReader - Can't the input file for read!
+19:42:57.583 [main] FATAL TextReader - Can't the input file for read!
+21:07:52.111 [main] ERROR by.bsu.handling.action.TextActionTest - Not able to find N unique symbols in text
+
+22:22:56.520 [main] INFO  by.bsu.handling.action.TextActionTest - w=11l=3a=2e=2m=2.=2
+22:23:57.013 [main] INFO  by.bsu.handling.action.TextActionTest - w=11, l=3, a=2, e=2, m=2, .=2, 
+22:24:53.382 [main] INFO  by.bsu.handling.action.TextActionTest - w=11, l=3, a=2, e=2, m=2, .=2
+22:37:01.719 [main] INFO  by.bsu.handling.action.TextActionTest - Symbols that appear most in text: w=11, l=3, a=2, e=2, m=2, .=2
+22:37:44.474 [main] ERROR by.bsu.handling.action.TextActionTest - Not able to find N unique symbols in text
+
