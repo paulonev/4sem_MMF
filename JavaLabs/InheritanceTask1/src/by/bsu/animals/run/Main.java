@@ -1,5 +1,6 @@
 package by.bsu.animals.run;
 
+import by.bsu.animals.animalsHandler.Handler;
 import by.bsu.animals.entity.Animal;
 import by.bsu.animals.entity.Dog;
 import by.bsu.animals.entity.Puppy;
@@ -14,15 +15,14 @@ public class Main {
 
     public static void main(String[] args){
         try {
-            Animal dog = new Dog("Jack", 29);
-            Dog puppy = new Puppy("Pooh", 3);
-            logger.log(Level.INFO, "Puppy's characteristics: \n" + puppy.toString()+"\n");
-            logger.log(Level.INFO, "What puppy has done in this session:\n"
-            + puppy.makeVoice() + "\n" + puppy.jump()+ "\n" + puppy.run() + "\n" + puppy.bite());
+            Animal dog = new Dog("Jack", 20);
+            Puppy puppy = new Puppy("Pooh", 3,16);
+            Handler.animalVisualizer(puppy);
 
         } catch(AnimalAgeException e){
             logger.log(Level.ERROR, "Exception: " + e.getMessage());
-            //logger output info on the console as well as in files
+            e.printStackTrace();
+            //logger outputs info on the console as well as in files
         }
     }
 }

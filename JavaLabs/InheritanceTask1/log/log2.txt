@@ -1,8 +1,9 @@
-04-29-2019  15:00:41.438 [main] INFO  by.bsu.animals.run.Main - Puppy's characteristics: 
+05-05-2019  11:29:30.028 [main] INFO  by.bsu.animals.run.Main - Puppy's characteristics: 
 Name: Pooh
 Age: 3.0
+Feeding_period: 16
 
-04-29-2019  15:00:41.542 [main] INFO  by.bsu.animals.run.Main - What puppy has done in this session:
+05-05-2019  11:29:30.260 [main] INFO  by.bsu.animals.run.Main - What puppy has done in this session:
 Tiu tiu
 Puppy jumped
 Puppy ran

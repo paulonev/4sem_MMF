@@ -81,4 +81,37 @@ What puppy has done in this session:
 Tiu tiu
 Puppy jumped
 Puppy ran
+Even young puppy can bite you. Don't tease05-04-2019  10:30:32.509 [main] ERROR by.bsu.animals.run.Main - 
+Exception: Wrong dog's age05-04-2019  10:37:19.087 [main] ERROR by.bsu.animals.run.Main - 
+Exception: Wrong dog's age05-04-2019  10:39:45.405 [main] ERROR by.bsu.animals.run.Main - 
+Exception: Wrong dog's age05-04-2019  10:42:51.421 [main] ERROR by.bsu.animals.run.Main - 
+Exception: Wrong dog's age05-04-2019  10:43:26.451 [main] ERROR by.bsu.animals.run.Main - 
+Exception: Wrong dog's age05-04-2019  10:46:59.044 [main] INFO  by.bsu.animals.run.Main - 
+Puppy's characteristics: 
+Name: Pooh
+Age: 3.0
+05-04-2019  10:46:59.237 [main] INFO  by.bsu.animals.run.Main - 
+What puppy has done in this session:
+Tiu tiu
+Puppy jumped
+Puppy ran
+Even young puppy can bite you. Don't tease05-04-2019  10:48:22.378 [main] INFO  by.bsu.animals.run.Main - 
+Puppy's characteristics: 
+Name: Pooh
+Age: 3.0
+05-04-2019  10:48:22.531 [main] INFO  by.bsu.animals.run.Main - 
+What puppy has done in this session:
+Tiu tiu
+Puppy jumped
+Puppy ran
+Even young puppy can bite you. Don't tease05-05-2019  11:29:30.028 [main] INFO  by.bsu.animals.run.Main - 
+Puppy's characteristics: 
+Name: Pooh
+Age: 3.0
+Feeding_period: 16
+05-05-2019  11:29:30.260 [main] INFO  by.bsu.animals.run.Main - 
+What puppy has done in this session:
+Tiu tiu
+Puppy jumped
+Puppy ran
 Even young puppy can bite you. Don't tease

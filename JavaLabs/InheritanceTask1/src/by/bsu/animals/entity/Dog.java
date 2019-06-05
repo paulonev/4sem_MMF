@@ -3,13 +3,15 @@ package by.bsu.animals.entity;
 import by.bsu.animals.exception.AnimalAgeException;
 import java.util.Objects;
 
+import static by.bsu.animals.constants.ProgramConstants.MAX_DOGAGE;
+import static by.bsu.animals.constants.ProgramConstants.MAX_PUPPYAGE;
+
 /**This class describes instances of class DOG
  * @author Paul Okunev
  * @version 1.0
  */
 public class Dog extends Animal{
-    private static final int MAX_DOGAGE = 30;
-    protected double age;
+    double age;
 
     public Dog(){}
 
@@ -20,9 +22,11 @@ public class Dog extends Animal{
      */
     public Dog(String name, int age) throws AnimalAgeException{
         super(name);
-        if(age > MAX_DOGAGE || age <= Puppy.MAX_PUPPYAGE) throw new AnimalAgeException("Wrong dog's age");
+        if(age > MAX_DOGAGE || age <= MAX_PUPPYAGE) throw new AnimalAgeException("Wrong dog's age");
         this.age = age;
     }
+
+    public void setAge(int age) { this.age = age; }
 
     public double getAge() {
         return age;

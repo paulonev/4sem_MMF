@@ -1,8 +1,9 @@
 package by.bsu.animals.entity;
 
 import by.bsu.animals.exception.AnimalAgeException;
-
 import java.util.Objects;
+import static by.bsu.animals.constants.ProgramConstants.MAX_PUPPYAGE;
+import static by.bsu.animals.constants.ProgramConstants.MIN_FEEDPERIOD;
 
 /**This class describes instances of class PUPPY
  * We created puppy with the help of animal and dog.
@@ -10,23 +11,35 @@ import java.util.Objects;
  * @version 1.0
  */
 public class Puppy extends Dog{
-    protected static final int MAX_PUPPYAGE = 4;
+    private int feeding_period; //период материнского кормления (в месяцах)
 
     public Puppy(){}
 
     /** Constructor
-     * @param name  animal's name
-     * @param age   puppy's age
+     * @param name              animal's name
+     * @param age               puppy's age
+     * @param feeding_period    период материнского кормления (в месяцах)
      * @throws AnimalAgeException   if app tries to set age greater than 4 or less than or equal to 0
      */
-    public Puppy(String name, int age) throws AnimalAgeException{
-        super(name,age);
-        if(age > MAX_PUPPYAGE || age <= 0) throw new AnimalAgeException("Wrong puppy's age");
-        else this.age = age;
+    public Puppy(String name, int age, int feeding_period) throws AnimalAgeException{
+        super.setName(name);
+        if(age > MAX_PUPPYAGE || age <= 0 || feeding_period < MIN_FEEDPERIOD) throw new AnimalAgeException("Wrong parameters. Check constants");
+        else{
+            super.setAge(age);
+            this.feeding_period = feeding_period;
+        }
+    }
+
+    public int getFeeding_period() {
+        return feeding_period;
+    }
+
+    public void setFeeding_period(int feeding_period) {
+        this.feeding_period = feeding_period;
     }
 
     public double getAge() {
-        return age;
+        return this.age;
     }
 
     public String getName(){
@@ -50,7 +63,7 @@ public class Puppy extends Dog{
     }
     @Override
     public String toString(){
-        return "Name: " + this.getName() + "\n"+ "Age: " + this.age;
+        return "Name: " + this.getName() + "\n"+ "Age: " + this.age + "\n" + "Feeding_period: " + this.feeding_period;
     }
 
     @Override
@@ -59,11 +72,11 @@ public class Puppy extends Dog{
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         Puppy puppy = (Puppy) o;
-        return age == puppy.age;
+        return feeding_period == puppy.feeding_period;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(), age);
+        return Objects.hash(super.hashCode(), feeding_period);
     }
 }
