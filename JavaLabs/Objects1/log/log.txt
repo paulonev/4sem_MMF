@@ -1,0 +1,8 @@
+06-03-2019  00:35:45.377 [main] DEBUG by.bsu.objects.lines.entity.StraightLine - Test complete. Lines are parallel
+06-03-2019  00:36:44.794 [main] ERROR by.bsu.objects.lines.entity.StraightLine - Test #1 failed. Lines aren't parallel
+06-03-2019  00:40:44.195 [main] DEBUG by.bsu.objects.lines.entity.StraightLine - Test #3 complete
+06-03-2019  00:41:32.965 [main] ERROR by.bsu.objects.lines.entity.StraightLine - Test #3 failed
+06-03-2019  00:42:34.633 [main] ERROR by.bsu.objects.lines.entity.StraightLine - Test #3 failed
+Actual: Lines are parallel. (java.lang.String@1fdf1c5)
+Expected: Lines are the same. Infinitely many common points. (java.lang.String@614df0a4)
+06-03-2019  10:27:28.178 [main] DEBUG by.bsu.objects.lines.entity.StraightLine - Test #4 complete

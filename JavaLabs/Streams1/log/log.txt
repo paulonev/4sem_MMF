@@ -1,0 +1,87 @@
+03-31-2019  17:17:39.414 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  17:19:11.349 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Can't add car with such parameters to taxi park
+03-31-2019  17:22:49.663 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Mistake in the file. Car with such parameters doesn't match any category
+03-31-2019  17:48:04.511 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Mistake in the file. Car with such parameters doesn't match any category
+03-31-2019  17:50:55.253 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  17:52:58.756 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  17:55:12.025 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  17:57:47.002 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  18:00:16.649 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+03-31-2019  21:31:44.960 [main] ERROR by.bsu.taxipark.tasks.CarPriceCalculatorTest - Not valid data. Check resources file
+For input string: " 2014"
+03-31-2019  21:32:25.929 [main] ERROR by.bsu.taxipark.tasks.CarPriceCalculatorTest - Not valid data. For input string: " 2014"
+Check resources file
+04-01-2019  07:02:31.655 [main] DEBUG by.bsu.taxipark.tasks.CarPriceCalculatorTest - Our sorted list[Auto{model='Volkswagen Polo', year=2010, fuelConsumption=5.5, price=9599.9, maxPassengers=4, maxSpeed=120, carClass=ECONOM, airConditioning=false, beverages=false}, Auto{model='Toyota Camry', year=2015, fuelConsumption=7.3, price=14999.9, maxPassengers=4, maxSpeed=160, carClass=COMFORT, airConditioning=true, beverages=false}, Auto{model='Mercedes-Benz E-klasse', year=2016, fuelConsumption=8.4, price=19000.0, maxPassengers=2, maxSpeed=180, carClass=BUSINESS, airConditioning=true, beverages=true}]
+04-26-2019  18:28:05.997 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+04-27-2019  22:59:15.059 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+04-27-2019  23:00:12.811 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+04-27-2019  23:01:44.367 [main] INFO  by.bsu.taxipark.builder.AutobuilderTest - Taxi park was successfully created
+04-27-2019  23:17:09.709 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Unable to parse string to number; For input string: " 2016"
+04-27-2019  23:25:37.097 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Unable to parse string to number; For input string: " 2016"
+04-27-2019  23:28:17.262 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Mistake in the file. Car with such parameters doesn't match any category
+04-27-2019  23:28:33.710 [main] ERROR by.bsu.taxipark.builder.AutobuilderTest - Unable to parse string to number; For input string: " 2016"
+04-27-2019  23:37:19.918 [main] ERROR by.bsu.taxipark.tasks.CarPriceCalculatorTest - Not valid data. For input string: " 2016"
+Check resources file
+04-27-2019  23:37:38.788 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
+04-27-2019  23:37:39.904 [main] DEBUG by.bsu.taxipark.tasks.CarPriceCalculatorTest - Our sorted list[Auto{model='Volkswagen Polo', year=2010, fuelConsumption=5.5, price=9599.9, maxPassengers=4, maxSpeed=120, carClass=ECONOM, airConditioning=false, beverages=false}, Auto{model='Toyota Camry', year=2015, fuelConsumption=7.3, price=14999.9, maxPassengers=4, maxSpeed=160, carClass=COMFORT, airConditioning=true, beverages=false}, Auto{model='Mercedes-Benz E-klasse', year=2016, fuelConsumption=8.4, price=19000.0, maxPassengers=2, maxSpeed=180, carClass=BUSINESS, airConditioning=true, beverages=true}]
+04-28-2019  18:33:07.083 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - Year parameter can't be converted to number
+04-28-2019  18:34:20.875 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - Year parameter can't be converted to number
+04-28-2019  18:44:53.537 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - Consumption parameter can't be converted to number
+04-28-2019  18:47:18.723 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - Price parameter can't be converted to number
+04-28-2019  18:47:46.039 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - Not valid car parameters
+04-28-2019  18:50:54.244 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - Not valid car parameters
+04-28-2019  19:01:34.221 [main] INFO  by.bsu.taxipark.builder.CarbuilderTest - Taxi park was successfully created
+04-28-2019  19:03:37.260 [main] INFO  by.bsu.taxipark.builder.CarbuilderTest - Taxi park was successfully created
+04-28-2019  19:06:52.098 [main] INFO  by.bsu.taxipark.builder.CarbuilderTest - Taxi park was successfully created
+04-28-2019  19:08:57.947 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - Year parameter can't be converted to number
+04-28-2019  19:09:42.657 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - by.bsu.taxipark.exception.WrongDataException: Year parameter can't be converted to number
+04-28-2019  19:10:19.786 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - [Ljava.lang.StackTraceElement;@2cc44ad
+04-28-2019  19:10:49.183 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - null
+04-28-2019  19:11:39.734 [main] FATAL by.bsu.taxipark.read.fileReader - java.io.FileNotFoundException: E:\4sem_MMF\JavaLabs\InheritanceTask2\data\data.tx (Не удается найти указанный файл)
+04-28-2019  19:17:25.145 [main] FATAL by.bsu.taxipark.read.fileReader - java.io.FileNotFoundException: E:\4sem_MMF\JavaLabs\InheritanceTask2\data\data.tx (Не удается найти указанный файл)
+04-28-2019  19:17:25.175 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - java.lang.NullPointerException
+04-28-2019  19:18:10.173 [main] FATAL by.bsu.taxipark.read.fileReader - java.io.FileNotFoundException: E:\4sem_MMF\JavaLabs\InheritanceTask2\data\data.tx (Не удается найти указанный файл)
+04-28-2019  19:18:10.188 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - null
+04-28-2019  19:22:00.153 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - E:\4sem_MMF\JavaLabs\InheritanceTask2\data\data.tx (Не удается найти указанный файл)
+04-28-2019  19:22:49.284 [main] ERROR by.bsu.taxipark.builder.CarbuilderTest - by.bsu.taxipark.exception.WrongDataException: Year parameter can't be converted to number
+04-28-2019  19:37:36.785 [main] INFO  by.bsu.taxipark.builder.CarbuilderTest - Taxi park was successfully created
+04-29-2019  07:26:24.607 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
+04-29-2019  07:26:25.542 [main] DEBUG by.bsu.taxipark.tasks.CarPriceCalculatorTest - Our sorted list[EconomCar{airConditioning=true, model='VOLKSWAGEN_POLO', year=2010, fuelConsumption=5.5, price=9599.9, maxSpeed=120}, ComfortCar{airConditioning=true, beverages=true, model='TOYOTA_CAMRY', year=2015, fuelConsumption=7.3, price=14999.9, maxSpeed=160}, BusinessCar{airConditioning=true, beverages=true, batteryCharger=true, model='MERCEDES-BENZ_E-KLASSE', year=2016, fuelConsumption=8.4, price=19000.0, maxSpeed=180}, Minivan{maxPassengers=12, model='VOLKSWAGEN_CADDY', year=2014, fuelConsumption=10.2, price=25000.0, maxSpeed=120}]
+04-29-2019  07:29:33.713 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
+04-29-2019  07:29:52.338 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
+04-29-2019  07:30:11.123 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
+04-29-2019  07:32:30.729 [main] ERROR by.bsu.taxipark.tasks.CarPriceCalculatorTest - Exception Not valid car parameters
+04-29-2019  07:33:09.241 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
+04-29-2019  07:33:41.022 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
+04-29-2019  07:34:07.347 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
+05-11-2019  10:23:51.315 [main] ERROR by.bsu.taxipark.storage.CarStorageInitializerTest - Year parameter can't be converted to number
+05-11-2019  11:00:56.179 [main] ERROR by.bsu.taxipark.storage.CarStorageInitializerTest - Not valid car classification
+05-11-2019  11:01:52.712 [main] ERROR by.bsu.taxipark.storage.CarStorageInitializerTest - Not valid car classification
+05-18-2019  10:41:56.091 [main] ERROR by.bsu.taxipark.builder.OutOfMemoryTest - Java heap space
+06-03-2019  17:31:37.021 [main] DEBUG by.bsu.taxipark.util.Serializator - Serialization successfully completed
+06-03-2019  17:33:26.867 [main] DEBUG by.bsu.taxipark.util.Serializator - Serialization successfully completed
+06-03-2019  17:34:09.267 [main] ERROR by.bsu.taxipark.util.Serializator - Class is not serializable: java.io.NotSerializableException
+06-03-2019  17:49:09.984 [main] ERROR by.bsu.taxipark.util.Serializator - General I/O exception: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: by.bsu.taxipark.entity.fewPassengersCar.EconomCar
+06-03-2019  17:49:10.010 [main] ERROR by.bsu.taxipark.util.Serializator - Object wasn't deserialized
+06-03-2019  17:51:04.308 [main] ERROR by.bsu.taxipark.util.Serializator - General I/O exception: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: by.bsu.taxipark.entity.fewPassengersCar.EconomCar
+06-03-2019  17:51:04.501 [main] ERROR by.bsu.taxipark.util.Serializator - Object wasn't deserialized
+06-03-2019  17:52:33.254 [main] ERROR by.bsu.taxipark.util.Serializator - General I/O exception: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: by.bsu.taxipark.entity.fewPassengersCar.EconomCar
+06-03-2019  17:52:33.267 [main] ERROR by.bsu.taxipark.util.Serializator - Object wasn't deserialized
+06-03-2019  17:52:59.310 [main] ERROR by.bsu.taxipark.util.Serializator - General I/O exception: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: by.bsu.taxipark.entity.fewPassengersCar.EconomCar
+06-03-2019  17:52:59.323 [main] ERROR by.bsu.taxipark.util.Serializator - Object wasn't deserialized
+06-03-2019  17:53:44.168 [main] DEBUG by.bsu.taxipark.util.Serializator - Serialization successfully completed. You can check it in the file. 
+06-03-2019  17:59:42.758 [main] ERROR by.bsu.taxipark.util.Serializator - Not able to find file: java.io.FileNotFoundException: data\objects.txt (Не удается найти указанный файл)
+06-03-2019  17:59:42.771 [main] ERROR by.bsu.taxipark.util.Serializator - Object wasn't deserialized
+06-03-2019  18:01:13.784 [main] ERROR by.bsu.taxipark.util.Serializator - Not able to find file: java.io.FileNotFoundException: data\objects.txt (Не удается найти указанный файл)
+06-03-2019  18:01:13.794 [main] ERROR by.bsu.taxipark.util.Serializator - Object wasn't deserialized
+06-03-2019  18:01:13.799 [main] ERROR by.bsu.taxipark.util.Serializator - [Ljava.lang.StackTraceElement;@54dcfa5a
+06-03-2019  18:04:58.718 [main] ERROR by.bsu.taxipark.util.Serializator - Class versions incompatibility: java.io.InvalidClassException: by.bsu.taxipark.entity.Car; local class incompatible: stream classdesc serialVersionUID = 1, local class serialVersionUID = -8662187011580204606
+06-03-2019  18:04:58.757 [main] ERROR by.bsu.taxipark.util.Serializator - Object wasn't deserialized
+06-03-2019  18:05:38.099 [main] DEBUG by.bsu.taxipark.util.Serializator - Serialization successfully completed. You can check it in the file. 
+06-03-2019  18:19:32.642 [main] DEBUG by.bsu.taxipark.util.Serializator - Serialization successfully completed. You can check it in the file. 
+06-03-2019  18:20:07.252 [main] DEBUG by.bsu.taxipark.util.Serializator - Deserialization successfully completed.
+06-03-2019  18:33:02.776 [main] ERROR by.bsu.taxipark.util.Serializator - Class versions incompatibility: java.io.InvalidClassException: by.bsu.taxipark.entity.fewPassengersCar.FewPassengersCar; local class incompatible: stream classdesc serialVersionUID = -3473171994080644137, local class serialVersionUID = -3332509980459509849
+06-03-2019  18:33:02.847 [main] ERROR by.bsu.taxipark.util.Serializator - Object wasn't deserialized
+06-03-2019  18:33:46.616 [main] DEBUG by.bsu.taxipark.util.Serializator - Serialization successfully completed. You can check it in the file. 
+06-03-2019  18:34:15.056 [main] DEBUG by.bsu.taxipark.util.Serializator - Deserialization successfully completed.
+06-03-2019  18:34:44.939 [main] DEBUG by.bsu.taxipark.util.Serializator - Deserialization successfully completed.
