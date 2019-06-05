@@ -54,3 +54,7 @@ Check resources file
 04-29-2019  07:33:09.241 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
 04-29-2019  07:33:41.022 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
 04-29-2019  07:34:07.347 [main] INFO  by.bsu.taxipark.tasks.CarPriceCalculatorTest - Test list was successfully created
+05-11-2019  10:23:51.315 [main] ERROR by.bsu.taxipark.storage.CarStorageInitializerTest - Year parameter can't be converted to number
+05-11-2019  11:00:56.179 [main] ERROR by.bsu.taxipark.storage.CarStorageInitializerTest - Not valid car classification
+05-11-2019  11:01:52.712 [main] ERROR by.bsu.taxipark.storage.CarStorageInitializerTest - Not valid car classification
+05-18-2019  10:41:56.091 [main] ERROR by.bsu.taxipark.builder.OutOfMemoryTest - Java heap space
