@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"by.bsu.trains.entity"},{"l":"by.bsu.trains.exceptions"},{"l":"by.bsu.trains.Factory"},{"l":"by.bsu.trains.handlers"},{"l":"by.bsu.trains.strategy"}]
